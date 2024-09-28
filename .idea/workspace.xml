@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Java-Development.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Workbook1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/BasicCalculator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/MathApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/SandwichShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/BasicCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/src/PayrollCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/MathApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/PayrollCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/SandwichShop.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "asanmiguel12"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/asanmiguel12/java-development.git",
+    "accountId": "c1cc03cc-41b6-4424-b9ea-44c2ebda5ac6"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2mgFLS1Gn6pX7NAcYt2BDxKmylm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SandwichShop.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/adriansanmiguel/Desktop/Pluralsight/Java-Development/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/com.pluralsight" />
+      <recent name="$PROJECT_DIR$/BasicCalculator" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SandwichShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SandwichShop" />
+      <module name="Java-Development" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SandwichShop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="" />
+      <created>1727490255357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727490255357</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/workbook-1/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/workbook-1/SandwichShop.java</url>
+          <line>5</line>
+          <properties class="SandwichShop" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
