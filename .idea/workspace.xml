@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Java-Development.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Workbook1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/BasicCalculator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/MathApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/SandwichShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/BasicCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/src/PayrollCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/BasicCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/BasicCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/BasicCalculator/BasicCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/BasicCalculator2/BasicCalculator2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workbook-1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/MathApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/PayrollCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/SandwichShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/MathApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/MathApp/MathApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/PayrollCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/PayrollCalculator/PayrollCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/SandwichShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop/SandwichShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "asanmiguel12"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;asanmiguel12&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/asanmiguel12/java-development.git",
-    "accountId": "c1cc03cc-41b6-4424-b9ea-44c2ebda5ac6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/asanmiguel12/java-development.git&quot;,
+    &quot;accountId&quot;: &quot;c1cc03cc-41b6-4424-b9ea-44c2ebda5ac6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2mgFLS1Gn6pX7NAcYt2BDxKmylm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,11 +46,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BasicCalculator.executor": "Run",
+    "Application.MathApp.executor": "Run",
+    "Application.PayrollCalculator.executor": "Run",
     "Application.SandwichShop.executor": "Run",
+    "Application.com.pluralsight.BasicCalculator.executor": "Run",
+    "Application.com.pluralsight.SandwichShop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/adriansanmiguel/Desktop/Pluralsight/Java-Development/src/Main.java"
+    "onboarding.tips.debug.path": "/Users/adriansanmiguel/Desktop/Pluralsight/Java-Development/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "promo.profiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,17 +70,79 @@
       <recent name="$PROJECT_DIR$/BasicCalculator" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SandwichShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SandwichShop" />
+  <component name="RunManager" selected="Application.com.pluralsight.SandwichShop">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator.BasicCalculator" />
       <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.BasicCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.MathApp" />
+      <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayrollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.PayrollCalculator" />
+      <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.pluralsight.BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
+      <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.pluralsight.SandwichShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.SandwichShop" />
+      <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SandwichShop" />
+        <item itemvalue="Application.com.pluralsight.SandwichShop" />
+        <item itemvalue="Application.PayrollCalculator" />
+        <item itemvalue="Application.MathApp" />
+        <item itemvalue="Application.com.pluralsight.BasicCalculator" />
+        <item itemvalue="Application.BasicCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -104,10 +165,20 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/PayrollCalculator/PayrollCalculator.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop/SandwichShop.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/workbook-1/SandwichShop.java</url>
+          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop/SandwichShop.java</url>
           <line>5</line>
-          <properties class="SandwichShop" method="main">
+          <properties class="com.pluralsight.SandwichShop.SandwichShop">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
