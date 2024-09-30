@@ -25,7 +25,7 @@ public class RentalCarCalculator {
         System.out.println("Would you like to have roadside assistance for $3.95/day (yes/no) : ");
         String roadside = scanner.nextLine();
         float roadsideChoice = 3.95f;
-
+        scanner.close();
         if (gps.equals("yes")) {
             totalprice = totalprice + (gpsChoice * numberOfDays);
         }
@@ -38,13 +38,11 @@ public class RentalCarCalculator {
 
         System.out.println("What is your current age?");
         int age = scanner.nextInt();
-
         if (age <= 25) {
             totalprice += (totalprice * .30f);
         }
 
         System.out.println("Your total cost is $" + totalprice);
-
     }
 }
 
