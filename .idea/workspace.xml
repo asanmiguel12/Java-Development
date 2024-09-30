@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/BasicCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/BasicCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/BasicCalculator/BasicCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/BasicCalculator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/BasicCalculator2/BasicCalculator2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/MathApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/MathApp/MathApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/PayrollCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/PayrollCalculator/PayrollCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/SandwichShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop/SandwichShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/SandwichShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/SandwichShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.pluralsight.BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
+    <configuration name="SandwichShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.SandwichShop" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.pluralsight.SandwichShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.SandwichShop" />
+    <configuration name="com.pluralsight.BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.BasicCalculator" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
@@ -166,19 +160,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/PayrollCalculator/PayrollCalculator.java</url>
+          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/PayrollCalculator.java</url>
           <line>4</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop/SandwichShop.java</url>
+          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop.java</url>
           <line>4</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop/SandwichShop.java</url>
+          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/SandwichShop.java</url>
           <line>5</line>
-          <properties class="com.pluralsight.SandwichShop.SandwichShop">
+          <properties class="com.pluralsight.SandwichShop">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

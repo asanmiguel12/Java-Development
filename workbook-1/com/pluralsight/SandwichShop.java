@@ -13,22 +13,23 @@ public class SandwichShop {
         System.out.println("How old are you: ");
         int age = scanner.nextInt();
         float price = 0.0f;
+        scanner.close();
 
         if (size.equals("1")) {
             price = 5.45f;
-            if (loaded.equals("yes")) {
+        if (loaded.equals("yes")) {
                 price += 1.00f;
             }
         } else if (size.equals("2")) {
             price = 8.95f;
-            if (loaded.equals("yes")) {
+        if (loaded.equals("yes")) {
                 price += 1.75f;
             }
         }
         if (age <= 17) {
-            System.out.println("Your Total is: $" + (price - (price * .1)));
+            System.out.println("Your Total is: $" + (price - (price * .10)));
         } else if (age >= 65) {
-            System.out.println("Your Total is: $" + (price - (price * .2)));
+            System.out.println("Your Total is: $" + (price - (price * .20)));
         } else {
             System.out.println("Your Total is: $" + price);
         }
