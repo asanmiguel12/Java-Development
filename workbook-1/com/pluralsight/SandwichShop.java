@@ -12,7 +12,7 @@ public class SandwichShop {
         String loaded = scanner.nextLine();
         System.out.println("How old are you: ");
         int age = scanner.nextInt();
-        float price = 0.0f;
+        float price = 0.00f;
         scanner.close();
 
         if (size.equals("1")) {
@@ -26,10 +26,11 @@ public class SandwichShop {
                 price += 1.75f;
             }
         }
+
         if (age <= 17) {
-            System.out.println("Your Total is: $" + (price - (price * .10)));
+            System.out.println("Your Total is: $" + (price - (price * .1f)));
         } else if (age >= 65) {
-            System.out.println("Your Total is: $" + (price - (price * .20)));
+            System.out.println("Your Total is: $" + (price - (price * .2f)));
         } else {
             System.out.println("Your Total is: $" + price);
         }
