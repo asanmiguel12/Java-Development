@@ -9,7 +9,7 @@ public class MortgageCalculator {
         System.out.println("What is the price of your home? : ");
         float cost = scanner.nextFloat();
 
-        System.out.println("How many years i? : ");
+        System.out.println("How many years is your loan lenght? : ");
         int years = scanner.nextInt();
         float length = years * 12;
 
