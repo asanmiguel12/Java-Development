@@ -9,11 +9,11 @@ public class MortgageCalculator {
         System.out.println("What is the price of your home? : ");
         float cost = scanner.nextFloat();
 
-        System.out.println("How many years is your loan lenght? : ");
+        System.out.println("How many years would you like your loan to be? : ");
         int years = scanner.nextInt();
         float length = years * 12;
 
-        System.out.println("What is your interest rate? : ");
+        System.out.println("What is the interest rate you are looking for? : ");
         float interestRate = scanner.nextFloat();
         float monthlyInterest = interestRate/100/12;
         scanner.close();
@@ -21,7 +21,7 @@ public class MortgageCalculator {
         float monthlyPayment = (float) (cost * (((monthlyInterest * (Math.pow(1 + monthlyInterest, length))) / ((Math.pow((1 + monthlyInterest), length)) - 1))));
         float totalInterest = (monthlyPayment * length) - cost;
 
-        System.out.println("Your loan of $" + cost + " is $"  + monthlyPayment + " per month\n" +
+        System.out.println("Your loan of $" + cost + " is $" + monthlyPayment + " per month\n" +
                 "Your total interest is $" + totalInterest);
 
 
