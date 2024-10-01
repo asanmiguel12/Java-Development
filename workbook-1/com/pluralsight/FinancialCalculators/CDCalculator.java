@@ -5,23 +5,26 @@ import java.util.Scanner;
 public class CDCalculator {
         static Scanner scanner = new Scanner(System.in);
         public static void main(String[] args) {;
-            System.out.println("Welcome to the Mortgage Calculator!");
-            double p = input("Principle");
-            double r = input("Interest Rate")/100/12;
-            double n = input("Loan Length")*12;
 
-            double m = getMonthly(p, r, n);
-            System.out.printf("Your monthly rate is : $%.2f\n", m);
+            System.out.println("Welcome to the Certificate of Deposit or 'CD' Calculator!\n" +
+            "This calculator lets you find the future value amount of your deposit using compound daily interest. \n" +
+            "Please enter the amount of your initial deposit : ");
+            float deposit = scanner.nextFloat();
 
-            double totalInterest = (m*n)-p;
-            System.out.printf("Your total interest is : $%.2f\n", totalInterest);
-        }
-        public static double input(String message) {
-            System.out.println("Please enter your " + message);
-            return scanner.nextDouble();
-        }
+            System.out.println("What is your interest rate? : ");
+            float rate = scanner.nextFloat();
+            double ratePercent = rate/100;
 
-        public static double getMonthly(double p, double r, double n) {
-            return (p * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1)));
+            System.out.println("How many years will your CD mature by? : ");
+            float years = scanner.nextFloat();
+            float days = 365;
+            scanner.close();
+
+            float futureValue = (float) (deposit * (Math.pow((1 + ratePercent/days), (years * days))));
+            float totalInterest = futureValue - deposit;
+
+            System.out.println("The future value of your CD wil be $" + futureValue + "\n" +
+            "Your accrued interest is $" + totalInterest);
+
         }
     }
