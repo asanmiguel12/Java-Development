@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniExercises2.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniExercises2.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workbook-1" />
       <recent name="$PROJECT_DIR$/out" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/com.pluralsight" />
