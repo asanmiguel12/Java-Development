@@ -16,6 +16,10 @@ public class MiniExercises2 {
         int x = c;
         System.out.println("Sum of letters in name 'Bob' is "  + (x-64)); //ascii table
 
+        //String [] alphabet = {"-ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+        //int name3  = Integer.parseInt(alphabet[2]);
+        //System.out.println(name3);
+
 
        // System.out.println("Welcome to my MadLibs! \n " +
                // "Please give just 1 word for each major part of a sentence and I will the most amazing story : ");
