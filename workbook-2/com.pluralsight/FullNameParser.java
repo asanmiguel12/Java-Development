@@ -6,22 +6,24 @@ public class FullNameParser {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Welcome All!");
-        System.out.println("Please choose a format to enter your name: \n" +
-                "Option 1 : First, Last \n" +
-                "Option 2 : First, Middle, Last \n" +
-                "Enter 1 or 2 : ");
-        String nameTypeOption = scanner.nextLine();
-        String fName = input("First Name : ").trim();
-        String lName = input("Last Name : ").trim();
+        String [] nameSplit = input("whole name").split("\\s");
 
-        if (nameTypeOption.equals("1")) {
-            String wholeName = fName + " " + lName;
-            System.out.println("Hello! " + wholeName);
+        String fName = "";
+        String mname = "(none)";
+        String lname = "";
+
+        if(nameSplit.length >= 3) {
+         fName = nameSplit[0];
+         mname = nameSplit[1];
+         lname = nameSplit[2];
+            System.out.println("First Name: " + fName +
+                    "\nMiddle Name: " + mname +
+                    "\nLast Name: " + lname);
         } else {
-            String mName = input("Middle Name : ").trim();
-            String wholeName = fName + " " + mName + " " + lName;
-            System.out.println("Hello! " + wholeName);
-
+            fName = nameSplit[0];
+            lname = nameSplit[1];
+            System.out.println("First Name: " + fName +
+                    "\nLast Name: " + lname);
         }
     }
     public static String input(String message) {
@@ -30,5 +32,7 @@ public class FullNameParser {
     }
 
 }
+
+
 
 

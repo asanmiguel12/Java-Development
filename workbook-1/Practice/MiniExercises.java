@@ -39,21 +39,5 @@ public class MiniExercises {
         double c = Math.sqrt(a + b);
         System.out.printf("The hypotenuse of your triangle is : %.2f", c);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
