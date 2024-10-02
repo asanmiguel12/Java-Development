@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi" />
+    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/workbook2/FullNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniExercises2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniExercises2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FinancialCalculators/MortgageCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FinancialCalculators/MortgageCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniExercises2.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniExercises2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/com/pluralsight/FinancialCalculators/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/com/pluralsight/FinancialCalculators/MortgageCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,32 +53,35 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnnuityCalculator.executor": "Run",
-    "Application.AnnuityCalculator1.executor": "Run",
-    "Application.BasicCalculator.executor": "Run",
-    "Application.CDCalculator.executor": "Run",
-    "Application.MathApp.executor": "Run",
-    "Application.MiniExercises.executor": "Run",
-    "Application.MiniExercises2.executor": "Run",
-    "Application.MortgageCalculator.executor": "Run",
-    "Application.PayrollCalculator.executor": "Run",
-    "Application.PracticeClock.executor": "Run",
-    "Application.RentalCarCalculator.executor": "Run",
-    "Application.SandwichShop.executor": "Run",
-    "Application.com.pluralsight.BasicCalculator.executor": "Run",
-    "Application.com.pluralsight.SandwichShop.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/adriansanmiguel/Desktop/Pluralsight/Java-Development/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "promo.profiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnnuityCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnnuityCalculator1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CDCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FullNameGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MathApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiniExercises.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiniExercises2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiniExercises2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MortgageCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PayrollCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeClock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RentalCarCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SandwichShop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.pluralsight.BasicCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.pluralsight.SandwichShop.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/adriansanmiguel/Desktop/Pluralsight/Java-Development/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;promo.profiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -79,13 +91,13 @@
       <recent name="$PROJECT_DIR$/com.pluralsight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniExercises2">
-    <configuration name="AnnuityCalculator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.FinancialCalculators.AnnuityCalculator1" />
+  <component name="RunManager" selected="Application.FullNameGenerator">
+    <configuration name="FullNameGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.workbook2.FullNameGenerator" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.*" />
+          <option name="PATTERN" value="com.pluralsight.workbook2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +114,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiniExercises2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MiniExercises2" />
+      <module name="Java-Development" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,26 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.SleepCalculator" />
-      <module name="Java-Development" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FullNameGenerator" />
         <item itemvalue="Application.MiniExercises2" />
+        <item itemvalue="Application.MiniExercises2 (1)" />
         <item itemvalue="Application.MiniExercises" />
         <item itemvalue="Application.MortgageCalculator" />
-        <item itemvalue="Application.SleepCalculator" />
-        <item itemvalue="Application.AnnuityCalculator1" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +193,6 @@
           <url>file://$PROJECT_DIR$/workbook-1/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workbook-1/com/pluralsight/PayrollCalculator.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

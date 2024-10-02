@@ -23,7 +23,5 @@ public class MortgageCalculator {
 
         System.out.println("Your loan of $" + cost + " is $" + monthlyPayment + " per month\n" +
                 "Your total interest is $" + totalInterest);
-
-
         }
     }
