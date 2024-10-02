@@ -19,14 +19,13 @@ public class TheatreReservations {
         int tickets1 = Integer.parseInt(tickets);
 
         if (tickets1 == 1) {
-            System.out.println(tickets1 + " ticket reserved for " + date1 + "under " + name);
+            System.out.println(tickets1 + " ticket reserved for " + date1 + " under " + name);
+        } else {
+            System.out.println(tickets1 + " tickets reserved for " + date1 + " under " + name);
         }
-            System.out.println(tickets1 + " tickets reserved for " + date1 + "under " + name);
-        }
-
-
+    }
     public static String input(String message) {
-        System.out.println("Please enter" + message);
+        System.out.println("Please enter " + message);
         return scanner.nextLine();
     }
 }

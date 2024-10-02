@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
-      <change afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/HighScoreWins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniExercises2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniExercises2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FullNameParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FullNameParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FullNameParser1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniExercises2.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniExercises2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/TheatreReservations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/TheatreReservations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
