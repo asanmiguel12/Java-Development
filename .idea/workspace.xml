@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
+      <change afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniScoreCounter1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/TheatreReservations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/TheatreReservations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/HighScoreWins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/HighScoreWins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniScoreCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/HighScoreWins.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/HighScoreWins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
     "Application.MiniExercises2 (1).executor": "Run",
     "Application.MiniExercises2.executor": "Run",
     "Application.MiniScoreCounter.executor": "Run",
+    "Application.MiniScoreCounter1.executor": "Run",
     "Application.MortgageCalculator.executor": "Run",
     "Application.PayrollCalculator.executor": "Run",
     "Application.PracticeClock.executor": "Run",
@@ -91,7 +94,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TheatreReservations">
+  <component name="RunManager" selected="Application.MiniScoreCounter1">
     <configuration name="FullNameParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.FullNameParser" />
       <module name="Java-Development" />
@@ -131,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniScoreCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.MiniScoreCounter" />
+    <configuration name="MiniScoreCounter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.MiniScoreCounter1" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TheatreReservations" />
+        <item itemvalue="Application.MiniScoreCounter1" />
         <item itemvalue="Application.HighScoreWins" />
+        <item itemvalue="Application.TheatreReservations" />
         <item itemvalue="Application.MiniExercises2" />
         <item itemvalue="Application.FullNameParser1" />
-        <item itemvalue="Application.MiniScoreCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +201,11 @@
           <url>file://$PROJECT_DIR$/workbook-1/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/workbook-2/com.pluralsight/HighScoreWins.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

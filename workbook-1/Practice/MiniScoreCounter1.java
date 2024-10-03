@@ -2,7 +2,7 @@ package Practice;
 
 import java.util.Scanner;
 
-public class MiniScoreCounter {
+public class MiniScoreCounter1 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -15,20 +15,20 @@ public class MiniScoreCounter {
         double test5 = input("Test Score 5 : ");
         scanner.close();
 
-
         double[] allTests = {test1, test2, test3, test4, test5};
-        for (int i = 0; i <= allTests.length; i++) {
-            int t = 1;
+        int highScores = 0;
+            for (int i = 0; i < 5; i++) {
+            }
+            for (double score : allTests) {
+                if (score >= 7) {
+                   highScores++;
+                }
+                System.out.println("You have " + highScores + " tests at a score of 7 or above.");
+            }
         }
-        if (allTests[i] >= 7) {
-            System.out.println("You have " + (allTests[i] >= 7) + " at a score of 7 or above.");
 
-        }
-       // public static double input(String message){
-          //  System.out.println("Please enter 1-10 for " + message);
-           // return scanner.nextDouble();
-        }
+    public static double input(String message) {
+        System.out.println("Please enter 1-10 for " + message);
+        return scanner.nextDouble();
     }
-//}
-
-
+}
