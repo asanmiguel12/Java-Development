@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
-      <change afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniScoreCounter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniProjectShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-2/AddressBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/HighScoreWins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/HighScoreWins.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniScoreCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/HighScoreWins.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/HighScoreWins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniScoreCounter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/TheatreReservations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/TheatreReservations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniScoreCounter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniProjectScoreCounter1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/TheatreReservations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddressBuilder.executor": "Run",
     "Application.AnnuityCalculator.executor": "Run",
     "Application.AnnuityCalculator1.executor": "Run",
     "Application.BasicCalculator.executor": "Run",
@@ -64,6 +67,7 @@
     "Application.MiniExercises.executor": "Run",
     "Application.MiniExercises2 (1).executor": "Run",
     "Application.MiniExercises2.executor": "Run",
+    "Application.MiniProjectScoreCounter1.executor": "Run",
     "Application.MiniScoreCounter.executor": "Run",
     "Application.MiniScoreCounter1.executor": "Run",
     "Application.MortgageCalculator.executor": "Run",
@@ -94,9 +98,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniScoreCounter1">
-    <configuration name="FullNameParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.FullNameParser" />
+  <component name="RunManager" selected="Application.AddressBuilder">
+    <configuration name="AddressBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.AddressBuilder" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiniScoreCounter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.MiniScoreCounter1" />
+    <configuration name="MiniProjectScoreCounter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.MiniProjectScoreCounter1" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
@@ -162,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MiniScoreCounter1" />
+        <item itemvalue="Application.AddressBuilder" />
+        <item itemvalue="Application.MiniProjectScoreCounter1" />
         <item itemvalue="Application.HighScoreWins" />
         <item itemvalue="Application.TheatreReservations" />
         <item itemvalue="Application.MiniExercises2" />
-        <item itemvalue="Application.FullNameParser1" />
       </list>
     </recent_temporary>
   </component>

@@ -2,7 +2,7 @@ package Practice;
 
 import java.util.Scanner;
 
-public class MiniScoreCounter1 {
+public class MiniProjectScoreCounter1 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

@@ -13,9 +13,8 @@ public class TheatreReservations {
         String name = input("your : (LastName, FirstName)").trim();
         String date = input("(Date) of reservation (MM/dd/yyyy): ");
         String tickets = input("# of tickets(s) : ");
-        DateTimeFormatter formatter;
-        formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
-        LocalDate date1 = LocalDate.parse(date, formatter);
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        LocalDate date1 = LocalDate.parse(date, dtf);
         int tickets1 = Integer.parseInt(tickets);
 
         if (tickets1 == 1) {
