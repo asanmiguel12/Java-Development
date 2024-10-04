@@ -18,8 +18,8 @@ public class CellPhone {
         this.dial = dial;
     }
 
-    public void dial(String phoneNumber) {
-        System.out.println(this.owner + "'s phone is calling " + phoneNumber);
+    public void dial(String phoneNumbertocall) {
+        System.out.println(this.owner + "'s phone is calling " + phoneNumbertocall);
 
     }
 
