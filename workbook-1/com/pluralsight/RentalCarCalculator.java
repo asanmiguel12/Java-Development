@@ -41,7 +41,6 @@ public class RentalCarCalculator {
         if (age <= 25) {
             totalprice += (totalprice * .30f);
         }
-
         System.out.println("Your total cost is $" + totalprice);
     }
 }

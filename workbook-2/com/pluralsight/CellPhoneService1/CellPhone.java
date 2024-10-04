@@ -5,15 +5,30 @@ public class CellPhone {
     private String model = "";
     private String carrier = "";
     private String phoneNumber = "";
-    private String owner= "";
+    private String owner = "";
+    private String dial = "";
 
 
-    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
+    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner, String dial) {
         this.serialNumber = serialNumber;
         this.model = model;
         this.carrier = carrier;
         this.phoneNumber = phoneNumber;
         this.owner = owner;
+        this.dial = dial;
+    }
+
+    public void dial(String phoneNumber) {
+        System.out.println(this.owner + "'s phone is calling " + phoneNumber);
+
+    }
+
+    public String getDial() {
+        return dial;
+    }
+
+    public void setDial (String dial) {
+        this.dial = dial;
     }
 
     public int getSerialNumber() {
