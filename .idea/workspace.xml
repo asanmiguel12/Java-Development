@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
-      <change afterPath="$PROJECT_DIR$/workbook-1/Practice/Assessment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook-1/Practice/ScoreCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/LoopingExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniProjectScoreCounter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/Practice/MiniProjectScoreCounter1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/WhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/WhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-1/Practice/MiniProjectScoreCounter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-1/Practice/MiniProjectScoreCounter1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/WhileLoop.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
