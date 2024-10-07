@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi" />
+    <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
+      <change afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhoneApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhoneApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ScoreCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhoneApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +61,7 @@
     "Application.BasicCalculator.executor": "Run",
     "Application.CDCalculator.executor": "Run",
     "Application.CellPhoneApplication.executor": "Run",
+    "Application.ForLoop.executor": "Run",
     "Application.FullNameGenerator.executor": "Run",
     "Application.FullNameParser.executor": "Run",
     "Application.FullNameParser1.executor": "Run",
@@ -99,7 +108,7 @@
       <recent name="com.pluralsight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniProjectScoreCounter1">
+  <component name="RunManager" selected="Application.ForLoop">
     <configuration name="Assessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.Assessment" />
       <module name="Java-Development" />
@@ -113,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopingExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExcerises.LoopingExercises" />
+    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExcerises.ForLoop" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.MiniProjectScoreCounter1" />
         <item itemvalue="Application.ScoreCounter" />
         <item itemvalue="Application.Assessment" />
         <item itemvalue="Application.WhileLoop" />
-        <item itemvalue="Application.LoopingExercises" />
       </list>
     </recent_temporary>
   </component>

@@ -7,15 +7,39 @@ public class CellPhone {
     private String phoneNumber = "";
     private String owner = "";
     private String dial = "";
+    private String year = "";
+    private String color = "";
 
 
-    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner, String dial) {
+    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner, String dial, String year, String color) {
         this.serialNumber = serialNumber;
         this.model = model;
         this.carrier = carrier;
         this.phoneNumber = phoneNumber;
         this.owner = owner;
         this.dial = dial;
+        this.year = year;
+        this.color = color;
+
+    }
+    public void newDial(String number) {
+        System.out.println(this.owner + " is calling" + number);
+
+    }
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public void dial(String phoneNumbertocall) {
@@ -27,7 +51,7 @@ public class CellPhone {
         return dial;
     }
 
-    public void setDial (String dial) {
+    public void setDial(String dial) {
         this.dial = dial;
     }
 

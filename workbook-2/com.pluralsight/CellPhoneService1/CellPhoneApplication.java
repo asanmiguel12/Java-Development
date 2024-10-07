@@ -17,10 +17,14 @@ public class CellPhoneApplication {
         String phoneNumber1 = scanner.nextLine();
         System.out.println("Who is the owner: ");
         String owner1 = scanner.nextLine();
-        System.out.println("What number would you like to dial?");
+        System.out.println("What number would you like to dial: ");
         String dial1 = scanner.nextLine();
+        System.out.println("What year was your phone made: ");
+        String year1 = scanner.nextLine();
+        System.out.println("What color is your phone: ");
+        String color1 = scanner.nextLine();
 
-        CellPhone cellphone1 = new CellPhone(serialNumber1, model1, carrier1, phoneNumber1, owner1, dial1 );
+        CellPhone cellphone1 = new CellPhone(serialNumber1, model1, carrier1, phoneNumber1, owner1, dial1, year1, color1);
 
         System.out.println("What is your serial number: ");
         int serialNumber2 = scanner.nextInt();
@@ -35,8 +39,12 @@ public class CellPhoneApplication {
         String owner2 = scanner.nextLine();
         System.out.println("What number would you like to dial?");
         String dial2 = scanner.nextLine();
+        System.out.println("What year was your phone made: ");
+        String year2 = scanner.nextLine();
+        System.out.println("What color is your phone: ");
+        String color2 = scanner.nextLine();
 
-        CellPhone cellphone2 = new CellPhone(serialNumber2, model2, carrier2,phoneNumber2, owner2, dial2);
+        CellPhone cellphone2 = new CellPhone(serialNumber2, model2, carrier2,phoneNumber2, owner2, dial2, year2, color2);
 
         System.out.println("Serial Number: " + cellphone1.getSerialNumber() +
                 "\nPhone model: " + cellphone1.getModel() +
@@ -53,13 +61,13 @@ public class CellPhoneApplication {
                 "\n" + owner2 + "'s phone is calling:" + cellphone2.getDial());
 
 
-        cellphone1.dial( cellphone2.getPhoneNumber() );
-        cellphone2.dial( cellphone1.getPhoneNumber() );
+       cellphone1.dial(cellphone2.getPhoneNumber());
+       cellphone2.dial(cellphone1.getPhoneNumber());
 
         display(cellphone1);
         display(cellphone2);
 
-        CellPhone phone = new CellPhone(serialNumber1,model1, carrier1, phoneNumber1, owner1, dial1);
+        CellPhone phone = new CellPhone(serialNumber1,model1, carrier1, phoneNumber1, owner1, dial1, year1, color1);
 
         phone.setSerialNumber(serialNumber1);
         phone.setModel(model1);
@@ -79,6 +87,7 @@ public class CellPhoneApplication {
 
     }
 }
+
 
 
 
