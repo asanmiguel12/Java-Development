@@ -2,36 +2,19 @@ package com.pluralsight.LoopingExcerises;
 
 public class WhileLoop {
     public static void main(String[] args) {
-        String p = "Hi!";
-        double x = .05;
-        double n = Math.random();
-        double count = 0;
-        while (Math.random() > .05) {
+        String p = "I love java";
+        int y = 0;
+        while (y < 5) {
             System.out.println(p);
-            }
-
-        int a = 20;
-        for (int b = 0; b < a; b++) {
-            if (b % 2 == 0) {
-                System.out.println(b);
-            }
+            y++;
         }
-
-        String[] fruitsandveggies = {"Tangerines", "Brussel Sprouts", "Apples"};
-        for (String i : fruitsandveggies) {
-            System.out.println("I love " + (i));
+        String r = "I love java";
+        int t = 0;
+        do {
+            System.out.println(r);
+            t++;
         }
+        while (t < 5);
 
-        int [] monkeys = {1,2,3,4,5,6,7,8,9,10};
-        int [] reversedmonkeys = {0,0,0,0,0,0,0,0,0,0};
-        for (int i = 0; i < monkeys.length; i++) {
-            reversedmonkeys[i] = monkeys[monkeys.length-i-1];
-            if (reversedmonkeys[i] == 1) {
-                System.out.println("1 little monkey jumping on the bed, one fell of and bumped his head, mommy called the doctor and the doctor said no more monkeys jumping on the bed");
-            }
-            System.out.println(reversedmonkeys[i] + " little monkeys jumping on the bed, one fell of and bumped his head, mommy called the doctor and the doctor said no more monkeys jumping on the bed");if (reversedmonkeys[i] == 1) {System.out.println("1 little monkey jumping on the bed, one fell of and bumped his head, mommy called the doctor and the doctor said no more monkeys jumping on the bed");
-            }
-
-        }
     }
 }
