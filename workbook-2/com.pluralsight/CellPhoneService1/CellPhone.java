@@ -1,62 +1,40 @@
 package com.pluralsight.CellPhoneService1;
 
 public class CellPhone {
-    private int serialNumber = 0;
-    private String model = "";
-    private String carrier = "";
-    private String phoneNumber = "";
-    private String owner = "";
-    private String dial = "";
-    private String year = "";
-    private String color = "";
+    private int serialNumber;
+    private String model;
+    private String carrier;
+    private String phoneNumber;
+    private String owner;
 
+    public CellPhone() {
+        this.serialNumber = 0;
+        this.model = "";
+        this.carrier = "";
+        this.phoneNumber = "";
+        this.owner = "";
 
-    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner, String dial, String year, String color) {
+    }
+
+    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
         this.serialNumber = serialNumber;
         this.model = model;
         this.carrier = carrier;
         this.phoneNumber = phoneNumber;
         this.owner = owner;
-        this.dial = dial;
-        this.year = year;
-        this.color = color;
 
-    }
-    public void newDial(String number) {
-        System.out.println(this.owner + " is calling" + number);
-
-    }
-    public String getYear() {
-        return year;
-    }
-
-    public void setYear(String year) {
-        this.year = year;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
     }
 
     public void dial(String phoneNumbertocall) {
         System.out.println(this.owner + "'s phone is calling " + phoneNumbertocall);
 
     }
-
-    public String getDial() {
-        return dial;
-    }
-
-    public void setDial(String dial) {
-        this.dial = dial;
+    public void dial(CellPhone phone) {
+        System.out.println(this.owner + "'s phone is calling " + phone.getPhoneNumber());
     }
 
     public int getSerialNumber() {
-        return serialNumber;
+        return this.serialNumber;
     }
 
     public void setSerialNumber(int serialNumber) {
@@ -80,7 +58,7 @@ public class CellPhone {
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return this.phoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
