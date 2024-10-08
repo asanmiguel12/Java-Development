@@ -1,6 +1,6 @@
 package com.pluralsight.LoopingExcerises;
 
-public class LoopingExercises {
+public class InClassLoopingExercises {
     public static void main(String[] args) {
         String p = "Hi!";
         while (Math.random() > .05) {
@@ -28,7 +28,6 @@ public class LoopingExercises {
             }
             System.out.println(reversedmonkeys[i] + " little monkeys jumping on the bed, one fell of and bumped his head, mommy called the doctor and the doctor said no more monkeys jumping on the bed");if (reversedmonkeys[i] == 1) {System.out.println("1 little monkey jumping on the bed, one fell of and bumped his head, mommy called the doctor and the doctor said no more monkeys jumping on the bed");
             }
-
         }
     }
 }

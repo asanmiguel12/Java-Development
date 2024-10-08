@@ -1,6 +1,6 @@
 package com.pluralsight.LoopingExcerises;
 
-public class ForLoop {
+public class ForLoopRocketLaunch {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Countdown to launch in: ");
         for (int i = 10; i > 0; i--) {

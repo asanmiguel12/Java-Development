@@ -1,6 +1,6 @@
 package com.pluralsight.LoopingExcerises;
 
-public class WhileLoop {
+public class WhileLoopILoveJava {
     public static void main(String[] args) {
         String p = "I love java";
         int y = 0;
