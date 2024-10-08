@@ -32,7 +32,7 @@ public class FamousQuotes {
         System.out.println("Have a good day!");
     }
 
-    public static String userInput() {
+    private static String userInput() {
         try {
             System.out.println("Pick a number from 1-10 to get a famous quote!");
             String input = scanner.nextLine();
@@ -68,9 +68,9 @@ public class FamousQuotes {
                     System.out.println("\nHere is your quote : " + quotes[9]);
                     break;
 
-            }
+                }
              return input;
-        } catch (Exception e) {
+            } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
