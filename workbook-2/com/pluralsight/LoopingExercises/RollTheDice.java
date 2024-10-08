@@ -1,4 +1,4 @@
-package com.pluralsight.LoopingExcerises;
+package com.pluralsight.LoopingExercises;
 
 import java.util.Scanner;
 
@@ -17,27 +17,25 @@ public class RollTheDice {
           int roll2 = dice.roll();
           int fullroll = roll1 + roll2;
 
-          if (roll1 + roll2 == 2) {
+          if (fullroll == 2) {
               twoCount++;
-          } else if (roll1 + roll2 == 4) {
+          } else if (fullroll == 4) {
               fourCount++;
-          } else if (roll1 + roll2 == 6) {
+          } else if (fullroll == 6) {
               sixCount++;
-          } else if (roll1 + roll2 == 7) {
+          } else if (fullroll == 7) {
               sevenCount++;
           } else {
+              System.out.println("Roll " + rollCount + ": "  + roll1 + " - " + roll2 + " Sum: " + fullroll);;
               rollCount++;
           }
-
-          System.out.println("Roll " + rollCount + ": "  + roll1 + " - " + roll2 + " Sum: " + fullroll);
-
       }
 
-          System.out.println("The number of 2s that were rolled:" + twoCount);
-          System.out.println("The number of 4s that were rolled:" + fourCount);
-          System.out.println("The number of 6s that were rolled:" + sixCount);
-          System.out.println("The number of 7s that were rolled:" + sevenCount);
+          System.out.println("\nThe number of 2s that were rolled: " + twoCount);
+          System.out.println("The number of 4s that were rolled: " + fourCount);
+          System.out.println("The number of 6s that were rolled: " + sixCount);
+          System.out.println("The number of 7s that were rolled: " + sevenCount);
 
       }
    }
-// not done yet
+

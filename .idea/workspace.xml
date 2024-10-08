@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
-      <change afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhoneApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhoneApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/ForLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/LoopingExercises.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/RollTheDice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/RollTheDice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/WhileLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/ForLoopRocketLaunch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/LoopingExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/InClassLoopingExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/RollTheDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/RollTheDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/WhileLoopILoveJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/ForLoopRocketLaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/InClassLoopingExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/RollTheDice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExcerises/WhileLoopILoveJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/ForLoopRocketLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/InClassLoopingExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/InClassLoopingExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/RollTheDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/RollTheDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/WhileLoopILoveJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/WhileLoopILoveJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="ForLoopRocketLaunch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExcerises.ForLoopRocketLaunch" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExercises.ForLoopRocketLaunch" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pluralsight.LoopingExcerises.*" />
+          <option name="PATTERN" value="com.pluralsight.LoopingExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
       </method>
     </configuration>
     <configuration name="InClassLoopingExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExcerises.InClassLoopingExercises" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExercises.InClassLoopingExercises" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pluralsight.LoopingExcerises.*" />
+          <option name="PATTERN" value="com.pluralsight.LoopingExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +169,11 @@
       </method>
     </configuration>
     <configuration name="RollTheDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExcerises.RollTheDice" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExercises.RollTheDice" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pluralsight.LoopingExcerises.*" />
+          <option name="PATTERN" value="com.pluralsight.LoopingExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,7 +224,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExcerises/ForLoopRocketLaunch.java</url>
+          <url>file://$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.java</url>
           <line>2</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
