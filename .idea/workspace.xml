@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
-      <change afterPath="$PROJECT_DIR$/workbook-2/ClassesExercises/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook-2/ClassesExercises/VehicleInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-3/com/pluralsight/FamousQuotes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ArrayExercises/TestStatistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhoneApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/Dice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/InClassLoopingExercises.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/RollTheDice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/WhileLoopILoveJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/CellPhoneService/CellPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/CellPhoneService/CellPhoneApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/AddressBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/AddressBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/ArrayExercises/TestStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/ForLoopRocketLaunch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/InClassLoopingExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/ClassesExercises/InClassLoopingExercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/RollTheDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/RollTheDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/WhileLoopILoveJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/WhileLoopILoveJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/Java-Development.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/Java-Development.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Java-Development.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/Java-Development.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +58,7 @@
     "Application.BasicCalculator.executor": "Run",
     "Application.CDCalculator.executor": "Run",
     "Application.CellPhoneApplication.executor": "Run",
+    "Application.FamousQuotes.executor": "Run",
     "Application.ForLoop.executor": "Run",
     "Application.FullNameGenerator.executor": "Run",
     "Application.FullNameParser.executor": "Run",
@@ -126,13 +111,13 @@
       <recent name="com.pluralsight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoopingExercises.RollTheDice">
-    <configuration name="InClassLoopingExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassesExercises.InClassLoopingExercises" />
+  <component name="RunManager" selected="Application.FamousQuotes">
+    <configuration name="FamousQuotes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.FamousQuotes" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClassesExercises.*" />
+          <option name="PATTERN" value="com.pluralsight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FamousQuotes" />
         <item itemvalue="Application.LoopingExercises.RollTheDice" />
         <item itemvalue="Application.VehicleInventory" />
         <item itemvalue="Application.TestStatistics" />
         <item itemvalue="Application.RollTheDice" />
-        <item itemvalue="Application.InClassLoopingExercises" />
       </list>
     </recent_temporary>
   </component>
