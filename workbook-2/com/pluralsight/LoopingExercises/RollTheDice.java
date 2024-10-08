@@ -26,8 +26,8 @@ public class RollTheDice {
           } else if (fullroll == 7) {
               sevenCount++;
           } else {
-              System.out.println("Roll " + rollCount + ": "  + roll1 + " - " + roll2 + " Sum: " + fullroll);;
               rollCount++;
+              System.out.println("Roll " + rollCount + ": "  + roll1 + " - " + roll2 + " Sum: " + fullroll);;
           }
       }
 
