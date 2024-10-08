@@ -44,7 +44,7 @@ public class BedTimeStories {
 
                 while (scanner.hasNextLine()) {
                     input3 = scanner.nextLine();
-                    System.out.println(input);
+                    System.out.println(input3);
 
                 }
 

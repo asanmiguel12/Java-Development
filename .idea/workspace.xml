@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
-      <change afterPath="$PROJECT_DIR$/DataFiles/employees.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataFiles/goldilocks.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataFiles/hansel_and_gretel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataFiles/inventory.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataFiles/mary_had_a_little_lamb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataFiles/products.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbook-3/Mod01/BedTimeStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-3/Mod01/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-3/Mod01/PayRollCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FamousQuotes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/FamousQuotes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-3/com/pluralsight/FamousQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-3/com/pluralsight/FamousQuotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-3/Mod01/BedTimeStories.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-3/Mod01/BedTimeStories.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +75,7 @@
     "Application.MiniScoreCounter.executor": "Run",
     "Application.MiniScoreCounter1.executor": "Run",
     "Application.MortgageCalculator.executor": "Run",
+    "Application.PayRollCalculator.executor": "Run",
     "Application.PayrollCalculator.executor": "Run",
     "Application.PracticeClock.executor": "Run",
     "Application.RentalCarCalculator.executor": "Run",
@@ -108,17 +103,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workbook-3" />
       <recent name="$PROJECT_DIR$/DataFiles" />
       <recent name="$PROJECT_DIR$/workbook-1" />
       <recent name="$PROJECT_DIR$/workbook2/com.pluralsight" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/out" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.pluralsight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BedTimeStories">
+  <component name="RunManager" selected="Application.PayRollCalculator">
     <configuration name="BedTimeStories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mod01.BedTimeStories" />
       <module name="Java-Development" />
@@ -158,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStatistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.ArrayExercises.TestStatistics" />
+    <configuration name="PayRollCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mod01.PayRollCalculator" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pluralsight.ArrayExercises.*" />
+          <option name="PATTERN" value="Mod01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayRollCalculator" />
         <item itemvalue="Application.BedTimeStories" />
         <item itemvalue="Application.FamousQuotes" />
         <item itemvalue="Application.LoopingExercises.RollTheDice" />
         <item itemvalue="Application.VehicleInventory" />
-        <item itemvalue="Application.TestStatistics" />
       </list>
     </recent_temporary>
   </component>
