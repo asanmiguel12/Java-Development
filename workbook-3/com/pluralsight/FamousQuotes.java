@@ -17,21 +17,20 @@ public class FamousQuotes {
             "Be yourself; everyone else is already taken. -Oscar Wilde"};
 
     public static void main(String[] args) {
-        String input2;
+        String input2 = " ";
         userInput();
         try {
             System.out.println("Would you like another quote?: (y/n)");
             input2 = scanner.nextLine();
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println("Error");
         }
         while (input2.equals("y")) {
             System.out.println("Great! Please select a number from 1-10: ");
             userInput();
         }
-        System.out.println("Thank you for playing!");
+        System.out.println("Have a good day!");
     }
-
 
     public static String userInput() {
         try {
@@ -70,7 +69,7 @@ public class FamousQuotes {
                     break;
 
             }
-            return input;
+             return input;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
