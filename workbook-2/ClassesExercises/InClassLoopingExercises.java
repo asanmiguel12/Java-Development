@@ -1,4 +1,4 @@
-package com.pluralsight.LoopingExercises;
+package ClassesExercises;
 
 public class InClassLoopingExercises {
     public static void main(String[] args) {

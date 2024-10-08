@@ -1,4 +1,4 @@
-package com.pluralsight.CellPhoneService1;
+package CellPhoneService;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class CellPhoneApplication {
         cellPhone1.dial(cellPhone2.getPhoneNumber());
         cellPhone2.dial(cellPhone1.getPhoneNumber());
 
-        cellPhone1.dial(cellPhone3); //call using overload parameter
+        cellPhone1.dial(cellPhone3); //dial using overload parameter
 
     }
     //method to get phone info

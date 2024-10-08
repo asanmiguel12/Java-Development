@@ -1,4 +1,4 @@
-package com.pluralsight.LoopingExercises;
+package LoopingExercises;
 
 public class ForLoopRocketLaunch {
     public static void main(String[] args) throws InterruptedException {

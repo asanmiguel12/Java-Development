@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
+      <change afterPath="$PROJECT_DIR$/workbook-2/ClassesExercises/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbook-2/ClassesExercises/VehicleInventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ArrayExercises/TestStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ArrayExercises/TestStatistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ArrayExercises/TestStatistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/CellPhoneService1/CellPhoneApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/InClassLoopingExercises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/RollTheDice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/WhileLoopILoveJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/CellPhoneService/CellPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com.pluralsight/CellPhoneService1/CellPhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/CellPhoneService/CellPhoneApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/AddressBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com.pluralsight/AddressBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/ArrayExercises/TestStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/ForLoopRocketLaunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/InClassLoopingExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/ClassesExercises/InClassLoopingExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/RollTheDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/RollTheDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/WhileLoopILoveJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/LoopingExercises/WhileLoopILoveJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +80,7 @@
     "Application.FullNameParser1.executor": "Run",
     "Application.HighScoreWins.executor": "Run",
     "Application.InClassLoopingExercises.executor": "Run",
+    "Application.LoopingExercises.RollTheDice.executor": "Run",
     "Application.MathApp.executor": "Run",
     "Application.MiniExercises.executor": "Run",
     "Application.MiniExercises2 (1).executor": "Run",
@@ -79,6 +97,7 @@
     "Application.ScoreCounter.executor": "Run",
     "Application.TestStatistics.executor": "Run",
     "Application.TheatreReservations.executor": "Run",
+    "Application.VehicleInventory.executor": "Run",
     "Application.WhileLoop.executor": "Debug",
     "Application.YesorNo.executor": "Run",
     "Application.com.pluralsight.BasicCalculator.executor": "Run",
@@ -107,39 +126,26 @@
       <recent name="com.pluralsight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestStatistics">
-    <configuration name="CellPhoneApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.CellPhoneService1.CellPhoneApplication" />
-      <module name="Java-Development" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.CellPhoneService1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForLoopRocketLaunch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExercises.ForLoopRocketLaunch" />
-      <module name="Java-Development" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.LoopingExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LoopingExercises.RollTheDice">
     <configuration name="InClassLoopingExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LoopingExercises.InClassLoopingExercises" />
+      <option name="MAIN_CLASS_NAME" value="ClassesExercises.InClassLoopingExercises" />
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pluralsight.LoopingExercises.*" />
+          <option name="PATTERN" value="ClassesExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopingExercises.RollTheDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopingExercises.RollTheDice" />
+      <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopingExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,7 +158,7 @@
       <module name="Java-Development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pluralsight.LoopingExercises.*" />
+          <option name="PATTERN" value="ClassesExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,13 +179,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VehicleInventory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassesExercises.VehicleInventory" />
+      <module name="Java-Development" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassesExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoopingExercises.RollTheDice" />
+        <item itemvalue="Application.VehicleInventory" />
         <item itemvalue="Application.TestStatistics" />
         <item itemvalue="Application.RollTheDice" />
         <item itemvalue="Application.InClassLoopingExercises" />
-        <item itemvalue="Application.CellPhoneApplication" />
-        <item itemvalue="Application.ForLoopRocketLaunch" />
       </list>
     </recent_temporary>
   </component>
@@ -214,11 +233,6 @@
           <url>file://$PROJECT_DIR$/workbook-1/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/ForLoopRocketLaunch.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

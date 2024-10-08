@@ -1,4 +1,4 @@
-package com.pluralsight.LoopingExercises;
+package LoopingExercises;
 
 public class WhileLoopILoveJava {
     public static void main(String[] args) {

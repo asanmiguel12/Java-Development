@@ -1,9 +1,6 @@
-package com.pluralsight.LoopingExercises;
-
-import java.util.Scanner;
+package LoopingExercises;
 
 public class RollTheDice {
-   private static Scanner scanner = new Scanner(System.in);
    public static void main(String[] args) {
       Dice dice = new Dice();
       int twoCount = 0;
@@ -25,7 +22,7 @@ public class RollTheDice {
               sixCount++;
           } else if (fullroll == 7) {
               sevenCount++;
-          } else {
+          } else if (fullroll < 12) {
               rollCount++;
               System.out.println("Roll " + rollCount + ": "  + roll1 + " - " + roll2 + " Sum: " + fullroll);;
           }

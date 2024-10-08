@@ -1,4 +1,4 @@
-package com.pluralsight.ArrayExercises;
+package ArrayExercises;
 
 import javax.swing.*;
 

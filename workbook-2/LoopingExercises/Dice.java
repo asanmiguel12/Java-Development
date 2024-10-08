@@ -1,4 +1,4 @@
-package com.pluralsight.LoopingExercises;
+package LoopingExercises;
 
 public class Dice {
     public int roll() {

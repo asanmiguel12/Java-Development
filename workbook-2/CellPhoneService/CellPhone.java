@@ -1,4 +1,4 @@
-package com.pluralsight.CellPhoneService1;
+package CellPhoneService;
 
 public class CellPhone {
     private int serialNumber;
