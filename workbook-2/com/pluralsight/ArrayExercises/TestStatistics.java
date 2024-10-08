@@ -8,15 +8,20 @@ public class TestStatistics {
         int sum = 0;
         int i;
         int highScore = tests[0];
+        int lowScore = tests[0];
 
         for (i = 0; i < tests.length; i++) {
             sum += tests[i];
             if (tests[i] > highScore) {
                 highScore = tests[i];
+            } else if (tests[i] < lowScore) {
+                lowScore = tests[i];
+            }
         }
-            System.out.println("HighScore: " + highScore);;}
+            System.out.println("LowScore: " + lowScore);
+            System.out.println("HighScore: " + highScore);
             double avg = (double) sum / tests.length;
             System.out.println("Average score: " + avg);
     }
 }
-// not done
+

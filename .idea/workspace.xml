@@ -7,9 +7,7 @@
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ArrayExercises/TestStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/ArrayExercises/TestStatistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/RollTheDice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/com/pluralsight/LoopingExercises/RollTheDice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/ArrayExercises/TestStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/RollTheDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-2/com/pluralsight/LoopingExercises/RollTheDice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
