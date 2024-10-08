@@ -19,51 +19,60 @@ public class FamousQuotes {
     public static void main(String[] args) {
         String input2;
         userInput();
+        try {
             System.out.println("Would you like another quote?: (y/n)");
             input2 = scanner.nextLine();
-            while (input2.equals("y")) {
-                System.out.println("Great! Please select a number from 1-10: ");
-                userInput();
-            }
-                System.out.println("Thank you for playing!");
-            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        while (input2.equals("y")) {
+            System.out.println("Great! Please select a number from 1-10: ");
+            userInput();
+        }
+        System.out.println("Thank you for playing!");
+    }
 
 
     public static String userInput() {
-        System.out.println("Pick a number from 1-10 to get a famous quote!");
-        String input = scanner.nextLine();
-        switch (input) {
-            case "1":
-                System.out.println("\nHere is your quote : " + quotes[0]);
-                break;
-            case "2":
-                System.out.println("\nHere is your quote : " + quotes[1]);
-                break;
-            case "3":
-                System.out.println("\nHere is your quote : " + quotes[2]);
-                break;
-            case "4":
-                System.out.println("\nHere is your quote : " + quotes[3]);
-                break;
-            case "5":
-                System.out.println("\nHere is your quote : " + quotes[4]);
-                break;
-            case "6":
-                System.out.println("\nHere is your quote : " + quotes[5]);
-                break;
-            case "7":
-                System.out.println("\nHere is your quote: " + quotes[6]);
-                break;
-            case "8":
-                System.out.println("\nHere is your quote : " + quotes[7]);
-                break;
-            case "9":
-                System.out.println("\nHere is your quote : " + quotes[8]);
-                break;
-            case "10":
-                System.out.println("\nHere is your quote : " + quotes[9]);
-                break;
+        try {
+            System.out.println("Pick a number from 1-10 to get a famous quote!");
+            String input = scanner.nextLine();
+            switch (input) {
+                case "1":
+                    System.out.println("\nHere is your quote : " + quotes[0]);
+                    break;
+                case "2":
+                    System.out.println("\nHere is your quote : " + quotes[1]);
+                    break;
+                case "3":
+                    System.out.println("\nHere is your quote : " + quotes[2]);
+                    break;
+                case "4":
+                    System.out.println("\nHere is your quote : " + quotes[3]);
+                    break;
+                case "5":
+                    System.out.println("\nHere is your quote : " + quotes[4]);
+                    break;
+                case "6":
+                    System.out.println("\nHere is your quote : " + quotes[5]);
+                    break;
+                case "7":
+                    System.out.println("\nHere is your quote: " + quotes[6]);
+                    break;
+                case "8":
+                    System.out.println("\nHere is your quote : " + quotes[7]);
+                    break;
+                case "9":
+                    System.out.println("\nHere is your quote : " + quotes[8]);
+                    break;
+                case "10":
+                    System.out.println("\nHere is your quote : " + quotes[9]);
+                    break;
 
-        }  return input;
+            }
+            return input;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
