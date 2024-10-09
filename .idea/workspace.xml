@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4318a6b-fe9c-459f-91a0-8a246ffaef46" name="Changes" comment="hi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Java-Development.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/Java-Development.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Java-Development.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/Java-Development.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Mod01/BedTimeStories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/employees.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/goldilocks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/hansel_and_gretel.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/inventory.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/mary_had_a_little_lamb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/products.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/employees.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/goldilocks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/hansel_and_gretel.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/inventory.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/mary_had_a_little_lamb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/production/Java-Development/DataFiles/products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Development/Mod01/BedTimeStories.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-Development/Mod01/BedTimeStories.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workbook-3/Mod01/BedTimeStories.java" beforeDir="false" afterPath="$PROJECT_DIR$/workbook-3/Mod01/BedTimeStories.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

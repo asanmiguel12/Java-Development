@@ -2,6 +2,7 @@ package Mod01;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 
 public class BedTimeStories {
@@ -21,7 +22,7 @@ public class BedTimeStories {
             if (choice == 1) {
                 FileInputStream goldi = new FileInputStream("DataFiles/" + "goldilocks.txt");
                 Scanner scanner = new Scanner(goldi);
-                String input;
+                String input = scanner.nextLine();
                 while (scanner.hasNextLine()) {
                     input = scanner.nextLine();
                     System.out.println(input);
@@ -35,18 +36,21 @@ public class BedTimeStories {
                     input2 = scanner.nextLine();
                     System.out.println(input2);
                 }
-            } else {
+            } else if (choice == 3) {
                 FileInputStream mary = new FileInputStream("DataFiles/" + "mary_had_a_little_lamb.txt");
                 Scanner scanner = new Scanner(mary);
                 String input3;
                 while (scanner.hasNextLine()) {
                     input3 = scanner.nextLine();
-                    System.out.println(input3);
+                    List<String> lines3 = List.of(input3);
+                    for(int i = 0; i < lines3.size(); i++) {
+                        System.out.println((i + 1) + "." + lines3.get(i));
+                    }
                 }
             }
             scanner.close();
-            } catch (Exception e) {
-            e.printStackTrace();
+            } catch (IOException e) {
+            System.out.println("Entry is out of bounds" + e.getMessage());
         }
     }
 }
