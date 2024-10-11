@@ -33,6 +33,7 @@ public class MathApp {
 //5
         double x1 = 5;
         double x2 = 10;
+        double xx;
         double y1 = 80;
         double y2 = 50;
 
