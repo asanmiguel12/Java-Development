@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.pluralsight;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
