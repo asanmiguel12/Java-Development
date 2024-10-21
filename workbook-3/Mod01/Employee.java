@@ -18,7 +18,8 @@ public class Employee {
         this.grosspay = hoursWorked * payRate;
 
 
-    }  public void setGrosspay(double grosspay) {
+    }
+    public void setGrosspay(double grosspay) {
         this.grosspay = grosspay;
     }
     public double getGrosspay() {

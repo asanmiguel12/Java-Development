@@ -1,4 +1,4 @@
-package Practice;
+package Mod01;
 
 public class Assessment {
     public static void main(String[] args) {

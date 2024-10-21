@@ -11,6 +11,7 @@ Technical Skills: Figma | Sketch | XCode | Adobe XD | SQL | Google Workspace | M
 Soft Skills: In-depth and Experienced Customer Relationship Skills, Product and Service Sales Proficiency, Highly Communicative, % To Goal Achievements, Team Recruitment, Team Management, Team Building
 
 ## Projects 
+
 Travel Itinerary Mobile Application: Streamlined the travel booking process and consolidated necessary avenues to obtain or hold airline tickets, event passes, as well as hotel confirmations
 Food Ordering Mobile Application: Created the UX design for a food establishment that enabled users to successfully order, track and obtain points for using our mobile app
 B2B Website Integration Layout: Established a site design for a business-to-business online lending startup that allowed users to learn about the company and conduct inquiries or utilize the company’s services
