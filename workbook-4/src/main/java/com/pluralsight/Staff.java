@@ -5,12 +5,9 @@ public class Staff {
     String department;
     double hoursWorked;
     double payRate;
-    double overtimeHours;
     double totalPay;
 
-    public Staff(double totalPay, boolean overtime, double payRate, double hoursWorked, String department, String name) {
-        this.totalPay = totalPay;
-        this.overtimeHours = overtimeHours;
+    public Staff(double payRate, double hoursWorked, String department, String name) {
         this.payRate = payRate;
         this.hoursWorked = hoursWorked;
         this.department = department;
@@ -19,15 +16,18 @@ public class Staff {
 
 
     public double getTotalPay() {
-        if (hoursWorked > 40) {
-            totalPay = hoursWorked * overtimeHours;
-            return totalPay; }
         totalPay = hoursWorked * payRate;
-        return totalPay;
-    }
-        public void setTotalPay () {
-            this.totalPay = totalPay;
+        if (hoursWorked > 40) {
+            double ovtPay = getOvertimeHours() * payRate * 1.5;
+            double ovtPaywithRegPay = ovtPay + totalPay;
+            return ovtPaywithRegPay;
         }
+       return totalPay;
+    }
+
+    public void setTotalPay() {
+        this.totalPay = totalPay;
+    }
 
 
     public String getName() {
@@ -64,17 +64,12 @@ public class Staff {
 
     public double getOvertimeHours() {
         if (hoursWorked > 40) {
-            double ovtPay = payRate * 1.5;
-            return overtimeHours;
+            return hoursWorked - 40;
+        } else {
+            return 0;
         }
-        return overtimeHours;
-    }
-    public void setOvertimeHours(double overtimeHours) {
-            this.overtimeHours = overtimeHours;
-    }
 
-    public void setTotalPay(double totalPay) {
-        this.totalPay = totalPay;
     }
-
 }
+
+
