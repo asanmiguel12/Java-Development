@@ -1,18 +1,44 @@
 package com.pluralsight;
 
 public class Rooms {
-    private int numberOfBeds = 1;
-    private double price = 50.00;
-    private boolean isOccupied = false;
-    private boolean isDirty = false;
-    public boolean isAvailable = true;
+    private int numberOfBeds;
+    private double price;
+    private boolean isOccupied;
+    private boolean isDirty;
+    public boolean isAvailable;
+    public boolean checkIn;
+    public boolean checkOut;
+    public boolean cleanRoom;
 
-    public Rooms (int numberOfBeds, double price, boolean isOccupied, boolean isDirty, boolean isAvailable) {
+    public boolean isCheckIn() {
+        return isAvailable && isDirty;
+    }
+
+    public void setCheckIn(boolean checkIn) {
+        this.checkIn = checkIn;
+    }
+
+    public boolean isCheckOut() {
+        return checkOut;
+    }
+
+    public void setCheckOut(boolean checkOut) {
+        this.checkOut = checkOut;
+    }
+
+    public boolean isCleanRoom() {
+        return !isDirty;
+    }
+
+    public void setCleanRoom(boolean cleanRoom) {
+        this.cleanRoom = cleanRoom;
+    }
+
+    public Rooms (int numberOfBeds, double price, boolean isOccupied, boolean isDirty) {
         this.numberOfBeds = numberOfBeds;
         this.price = price;
-        this.isOccupied = isOccupied;
         this.isDirty = isDirty;
-        this.isAvailable = isAvailable;
+        this.isOccupied= isOccupied;
 
     }
 
@@ -50,7 +76,7 @@ public class Rooms {
 
     public boolean isAvailable() {
         return !isDirty && !isOccupied;
-        }
+    }
 
     public void setAvailable(boolean available) {
         isAvailable = available;
