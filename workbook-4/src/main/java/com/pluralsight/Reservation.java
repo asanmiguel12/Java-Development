@@ -3,7 +3,7 @@ package com.pluralsight;
 public class Reservation {
     private String roomType;
     double price;
-    int numberOfBeds ;
+    int numberOfBeds;
     boolean weekend;
     double reservationTotal;
     private double numberOfNights;
@@ -44,7 +44,7 @@ public class Reservation {
         if (roomType.equals("Queen")) {
             price = 124.00;
         }
-        if(weekend) {
+        if (weekend) {
             price *= 1.1;
         }
         return price;
@@ -73,6 +73,13 @@ public class Reservation {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Reservation{" +
+                "roomType='" + roomType + '\'' +
+                ", price=" + price +
+                ", numberOfBeds=" + numberOfBeds +
+                ", weekend=" + weekend +
+                ", reservationTotal=" + reservationTotal +
+                ", numberOfNights=" + numberOfNights +
+                '}';
     }
 }

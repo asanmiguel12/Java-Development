@@ -40,6 +40,7 @@ public class Staff {
 
     public void setPunchOut(double punchOut) {
         this.punchOut = punchOut;
+
     }
 
     public Staff(double payRate, double hoursWorked, String department, String name, double punchIn, double punchOut) {

@@ -2,8 +2,7 @@ package com.pluralsight;
 
 import java.util.Arrays;
 
-public class App
-{
+public class App {
     public static void main( String[] args )
     {
         Reservation me = new Reservation("King", 1, true);
