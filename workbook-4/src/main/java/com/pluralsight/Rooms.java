@@ -11,7 +11,7 @@ public class Rooms {
     public boolean cleanRoom;
 
     public boolean isCheckIn() {
-        return isAvailable && isDirty;
+        return !isAvailable && !isDirty;
     }
 
     public void setCheckIn(boolean checkIn) {
@@ -19,7 +19,7 @@ public class Rooms {
     }
 
     public boolean isCheckOut() {
-        return checkOut;
+        return cleanRoom;
     }
 
     public void setCheckOut(boolean checkOut) {
