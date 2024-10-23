@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.time.LocalDateTime;
+
 public class Staff {
     String name;
     String department;
@@ -11,30 +13,39 @@ public class Staff {
     double punchCard;
     double time;
 
-    public double getPunchCard() {
+    public void getPunchCard() {
         punchCard = punchOut - punchIn;
-        return punchCard;
+        System.out.println("Hours Logged: " + punchCard);
+        this.hoursWorked = punchOut - punchIn;
     }
 
     public void setPunchCard(double punchCard) {
         this.punchCard = punchCard;
     }
+    //Overload
+    public void punchIn() {
+        LocalDateTime pI = LocalDateTime.now();
+        int pIHour = pI.getHour();
+        int pIMin  = pI.getMinute();
+        System.out.println(getName() + " clocked in at " + pIHour + ":" + pIMin);
+    }
 
     public double punchIn(double time) {
-//        LocalDateTime pI = LocalDateTime.now();
-//        double pIValue = pI.getHour() ;
-//        return pIValue;
         return punchIn;
     }
 
     public void setPunchIn(double punchIn) {
         this.punchIn = punchIn;
     }
+    //Overload
+    public void punchOut() {
+        LocalDateTime pI = LocalDateTime.now();
+        int pIHour = pI.getHour() + 8;
+        int pIMin  = pI.getMinute();
+        System.out.println(getName() + " clocked out at " + pIHour + ":" + pIMin);
+    }
 
     public double punchOut(double time) {
-//        LocalDateTime pI = LocalDateTime.now();
-//        double pOValue = pI.getHour();
-//        return pOValue;
         return punchOut;
     }
 
@@ -50,6 +61,13 @@ public class Staff {
         this.name = name;
         this.punchIn = punchIn;
         this.punchOut = punchOut;
+    }
+
+    public Staff(double payRate, String department, String name) {
+        this.payRate = payRate;
+        this.department = department;
+        this.hoursWorked = punchCard;
+        this.name = name;
     }
 
 

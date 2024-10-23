@@ -8,7 +8,13 @@ public class Rooms {
     public boolean isAvailable;
     public boolean checkIn;
     public boolean checkOut;
-    public boolean cleanRoom;
+    public boolean needToCleanRoom;
+
+    public Rooms(double price, int numberOfBeds) {
+        this.price = price;
+        this.numberOfBeds = numberOfBeds;
+
+    }
 
     public boolean isCheckIn() {
         return !isAvailable && !isDirty;
@@ -19,19 +25,22 @@ public class Rooms {
     }
 
     public boolean isCheckOut() {
-        return cleanRoom;
+        return needToCleanRoom;
     }
 
     public void setCheckOut(boolean checkOut) {
         this.checkOut = checkOut;
     }
 
-    public boolean isCleanRoom() {
-        return !isDirty;
+    public boolean isNeedToCleanRoom() {
+        if (true) {
+            return !isDirty;
+        }
+        return false;
     }
 
-    public void setCleanRoom(boolean cleanRoom) {
-        this.cleanRoom = cleanRoom;
+    public void setNeedToCleanRoom(boolean needToCleanRoom) {
+        this.needToCleanRoom = needToCleanRoom;
     }
 
     public Rooms (int numberOfBeds, double price, boolean isOccupied, boolean isDirty) {
@@ -67,7 +76,7 @@ public class Rooms {
     }
 
     public boolean isDirty() {
-        return isDirty;
+        return needToCleanRoom;
     }
 
     public void setDirty(boolean dirty) {
@@ -75,7 +84,10 @@ public class Rooms {
     }
 
     public boolean isAvailable() {
-        return !isDirty && !isOccupied;
+       if (true) {
+           return !isDirty && !isOccupied;
+       }
+       return isDirty && isOccupied;
     }
 
     public void setAvailable(boolean available) {

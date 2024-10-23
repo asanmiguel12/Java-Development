@@ -1,8 +1,6 @@
 package com.pluralsight;
 
-import java.util.Arrays;
-
-public class App {
+public class HotelMain {
     public static void main( String[] args )
     {
         Reservation me = new Reservation("King", 1, true);
@@ -11,11 +9,17 @@ public class App {
         Staff Adrian = new Staff(30, 50, "It", "Adrian", 10, 18);
         System.out.println(Adrian.getTotalPay());
 
-        Rooms rooms = new Rooms(1, 139, false, false);
-        String yesOrNo = rooms.isAvailable ? "No" : "Yes";
+        Rooms room1 = new Rooms(1, 139, false, false);
+        String yesOrNo = room1.isAvailable ? "No" : "Yes";
         System.out.println(yesOrNo);
 
-        System.out.println(Adrian.getPunchCard());
+        Staff Gabe = new Staff(30, "It", "Gabe");
+        Gabe.punchIn();
+        Gabe.punchOut();
+        Gabe.getPunchCard();
+        Gabe.getHoursWorked();
+
+
 
     }
 }
