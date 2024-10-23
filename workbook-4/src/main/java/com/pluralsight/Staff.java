@@ -30,8 +30,8 @@ public class Staff {
         System.out.println(getName() + " clocked in at " + pIHour + ":" + pIMin);
     }
 
-    public double punchIn(double time) {
-        return punchIn;
+    public void punchIn(double time) {
+        this.punchIn = time;
     }
 
     public void setPunchIn(double punchIn) {
@@ -45,8 +45,8 @@ public class Staff {
         System.out.println(getName() + " clocked out at " + pIHour + ":" + pIMin);
     }
 
-    public double punchOut(double time) {
-        return punchOut;
+    public void punchOut(double time) {
+        this.punchOut = time;
     }
 
     public void setPunchOut(double punchOut) {

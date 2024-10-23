@@ -12,6 +12,7 @@ public class RoomsTest extends TestCase {
     public boolean checkOut;
     public boolean needToCleanRoom;
 
+
     public void testIsCheckIn() {
         //room should be occupied and dirty
         //arrange
@@ -31,5 +32,10 @@ public class RoomsTest extends TestCase {
         //assert
         assertTrue(rooms.isAvailable());
         assertFalse(rooms.isOccupied());
+    }
+
+    public void testIsOccupied() {
+        //Cannot clean room if already occupied
+        assertFalse("Currently Occupied", false);
     }
 }

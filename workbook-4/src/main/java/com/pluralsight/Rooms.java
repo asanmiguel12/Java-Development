@@ -33,10 +33,11 @@ public class Rooms {
     }
 
     public void cleanRoom() {
-        if (this.isOccupied) {
+        if (isOccupied) {
+            isDirty = false;
             System.out.println("Currently Occupied");
         } else {
-            this.isDirty = false;
+            isDirty = false;
         }
 
     }
@@ -66,12 +67,12 @@ public class Rooms {
     }
 
     public boolean isOccupied() {
-        return isOccupied;
+        return true;
 
     }
 
     public void setOccupied(boolean occupied) {
-        isOccupied = occupied;
+        isOccupied = isOccupied;
     }
 
     public boolean isDirty() {
