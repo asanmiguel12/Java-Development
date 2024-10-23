@@ -7,8 +7,7 @@ public class Rooms {
     private boolean isDirty;
     public boolean isAvailable;
     public boolean checkIn;
-    public boolean checkOut;
-    public boolean needToCleanRoom;
+    public boolean checkOut;;
 
     public Rooms(double price, int numberOfBeds) {
         this.price = price;
@@ -17,7 +16,7 @@ public class Rooms {
     }
 
     public boolean isCheckIn() {
-        return !isAvailable && !isDirty;
+        return !isAvailable && !isDirty && isOccupied;
     }
 
     public void setCheckIn(boolean checkIn) {
@@ -25,22 +24,21 @@ public class Rooms {
     }
 
     public boolean isCheckOut() {
-        return needToCleanRoom;
+        cleanRoom();
+        return !isOccupied && !isAvailable;
     }
 
     public void setCheckOut(boolean checkOut) {
         this.checkOut = checkOut;
     }
 
-    public boolean isNeedToCleanRoom() {
-        if (true) {
-            return !isDirty;
+    public void cleanRoom() {
+        if (this.isOccupied) {
+            System.out.println("Currently Occupied");
+        } else {
+            this.isDirty = false;
         }
-        return false;
-    }
 
-    public void setNeedToCleanRoom(boolean needToCleanRoom) {
-        this.needToCleanRoom = needToCleanRoom;
     }
 
     public Rooms (int numberOfBeds, double price, boolean isOccupied, boolean isDirty) {
@@ -69,6 +67,7 @@ public class Rooms {
 
     public boolean isOccupied() {
         return isOccupied;
+
     }
 
     public void setOccupied(boolean occupied) {
@@ -76,7 +75,7 @@ public class Rooms {
     }
 
     public boolean isDirty() {
-        return needToCleanRoom;
+        return isDirty;
     }
 
     public void setDirty(boolean dirty) {
@@ -84,10 +83,7 @@ public class Rooms {
     }
 
     public boolean isAvailable() {
-       if (true) {
-           return !isDirty && !isOccupied;
-       }
-       return isDirty && isOccupied;
+        return !isDirty && !isOccupied;
     }
 
     public void setAvailable(boolean available) {

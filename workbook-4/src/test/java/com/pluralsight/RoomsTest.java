@@ -29,7 +29,6 @@ public class RoomsTest extends TestCase {
         //act
         rooms.isCheckOut();
         //assert
-        assertTrue(rooms.isNeedToCleanRoom());
         assertTrue(rooms.isAvailable());
         assertFalse(rooms.isOccupied());
     }

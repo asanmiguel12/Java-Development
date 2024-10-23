@@ -24,5 +24,6 @@ public class BookProductDoggyMain {
 
         Product p = new Product("303a",12, "Hammer");
         System.out.println(Arrays.toString(p.fullProductCode()));
+        p.productDetails();
     }
 }
