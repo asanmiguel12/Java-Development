@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import com.pluralsight.HotelApp.Staff;
 import junit.framework.TestCase;
 
 public class StaffTest extends TestCase {

@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.HotelApp;
 
 public class Rooms {
     private int numberOfBeds;
@@ -16,7 +16,7 @@ public class Rooms {
     }
 
     public boolean isCheckIn() {
-        return !isAvailable && !isDirty && isOccupied;
+        return !isAvailable && !isDirty;
     }
 
     public void setCheckIn(boolean checkIn) {

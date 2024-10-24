@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.HotelApp;
 
 import java.time.LocalDateTime;
 

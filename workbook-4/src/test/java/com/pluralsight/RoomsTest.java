@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import com.pluralsight.HotelApp.Rooms;
 import junit.framework.TestCase;
 
 public class RoomsTest extends TestCase {
@@ -32,10 +33,7 @@ public class RoomsTest extends TestCase {
         //assert
         assertTrue(rooms.isAvailable());
         assertFalse(rooms.isOccupied());
+        assertTrue(rooms.isDirty());
     }
 
-    public void testIsOccupied() {
-        //Cannot clean room if already occupied
-        assertFalse("Currently Occupied", false);
-    }
 }

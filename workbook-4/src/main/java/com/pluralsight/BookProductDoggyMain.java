@@ -1,6 +1,5 @@
 package com.pluralsight;
 
-import com.pluralsight.Doggy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

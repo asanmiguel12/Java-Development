@@ -1,4 +1,4 @@
-package com.pluralsight;
+package com.pluralsight.HotelApp;
 
 public class HotelMain {
     public static void main( String[] args )
