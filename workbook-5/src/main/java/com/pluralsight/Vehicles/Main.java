@@ -9,10 +9,11 @@ public class Main {
 
 
         Car bessie = new Car("Red", 3, 3, 3);
-        bessie.setCargoCapacity(20);
+
 
         System.out.println(slowRide.getColor());
         System.out.println(slowRide.getNumberOfPassengers());
+        System.out.println(bessie.getCargoCapacity());
 
     }
 }
