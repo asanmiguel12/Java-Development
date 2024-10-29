@@ -26,17 +26,22 @@ public class NameFormatter {
     }
 
     public static String format(String prefix, String firstName, String middleName, String lastName, String suffix) {
-        String formattedName = lastName + ", " + prefix + " " + firstName + " " + middleName + ", " + suffix;;
+        String formattedName = lastName + ", " + prefix + " " + firstName + " " + middleName + ", " + suffix;
         System.out.println(formattedName);
         return formattedName;
 
     }
 
     public static String format(String fullName) {
-        String[] nameP = fullName.split("\\.");
+        String[] nameP = fullName.split(" ");
         String prefix = nameP[0];
-        String[] nameFM = fullName.split(" ");
-        String formattedName = prefix + nameFM;
+        String firstName = nameP[1];
+        String middleName = nameP[2];
+        String lastName = nameP[3];
+        String suffix = nameP[4];
+//        String[] nameFM = fullName.split(" ");
+        String formattedName = lastName + ", " + prefix + " " + firstName + " " + middleName + ", " + suffix;
+        System.out.println(formattedName);
         return formattedName;
     }
 
