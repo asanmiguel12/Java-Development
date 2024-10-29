@@ -8,7 +8,7 @@ public class Main {
         slowRide.wheelie();
 
 
-        Car bessie = new Car("Coupe");
+        Car bessie = new Car("Red", 3, 3, 3);
         bessie.setCargoCapacity(20);
 
         System.out.println(slowRide.getColor());

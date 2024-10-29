@@ -1,8 +1,8 @@
 package com.pluralsight.Vehicles;
 
 public class Car extends Vehicle{
-    public Car (String model) {
+    public Car (String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
         System.out.println("Supercar");
-        super("Red", 3, 3, 3);
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
     }
 }
