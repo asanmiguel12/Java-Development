@@ -5,7 +5,7 @@ public class Vehicle extends Asset{
     private int odometer;
     private String makeModel;
 
-    public Vehicle(String description, String dateAcquired, double originalCost, String makeModel, int year, int odometer) {
+    public Vehicle(String makeModel, String description, int year, int odometer, String dateAcquired, double originalCost) {
         super(description, dateAcquired, originalCost);
         this.makeModel = makeModel;
         this.year = year;
@@ -38,17 +38,17 @@ public class Vehicle extends Asset{
 
     @Override
     public double getValue() {
-        double value = 0;
+        this.year = 2024 - this.year;
         if (this.year <= 3 ) {
-            value *= .97;
+            this.originalCost *= .97;
         } else if (this.year <= 6) {
-            value *= .94;
+            this.originalCost *= .94;
         } else if (this.year <= 10) {
-            value *= 92;
+            this.originalCost *= .92;
         } else if (this.year > 10 && this.odometer > 100000 &&
                 this.makeModel != "Honda" ) {
-            value = 1000 - (this.originalCost * .75) ;
+            this.originalCost = 1000 - (this.originalCost * .75) ;
         }
-        return value;
+        return this.originalCost;
     }
 }
