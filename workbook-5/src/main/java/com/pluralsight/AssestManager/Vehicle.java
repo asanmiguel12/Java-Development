@@ -46,7 +46,7 @@ public class Vehicle extends Asset{
         } else if (this.year <= 10) {
             this.originalCost *= .92;
         } else if (this.year > 10 && this.odometer > 100000 &&
-                this.makeModel != "Honda" ) {
+                this.makeModel != "Honda" && this.makeModel != "Toyota") {
             this.originalCost = 1000 - (this.originalCost * .75) ;
         }
         return this.originalCost;
