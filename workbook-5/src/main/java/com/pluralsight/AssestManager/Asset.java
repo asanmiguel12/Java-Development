@@ -35,7 +35,8 @@ public class Asset {
         this.originalCost = originalCost;
     }
 
-    public void getValue(double value) {
-        System.out.println("Asset value null");
+    public double getValue() {
+       double value  = 0;
+        return value;
     }
 }

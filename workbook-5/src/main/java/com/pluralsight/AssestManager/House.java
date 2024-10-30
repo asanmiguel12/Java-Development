@@ -43,17 +43,18 @@ public class House extends Asset{
     }
 
     @Override
-    public void getValue(double originalCost) {
-        if (this.condition == 1 ) {
-            this.originalCost = this.squareFoot * 180 + (this.lotSize * .25);
+    public double getValue() {
+        double value = 0;
+        if (this.condition == 1) {
+            value = this.squareFoot * 180 + (this.lotSize * .25);
         } else if (this.condition == 2) {
-            this.originalCost = this.squareFoot * 130 + (this.lotSize * .25);
+            value = this.squareFoot * 130 + (this.lotSize * .25);
         } else if (this.condition == 3) {
-            this.originalCost = this.squareFoot * 90 + (this.lotSize * .25);
+            value = this.squareFoot * 90 + (this.lotSize * .25);
         } else if (this.condition == 4) {
-            this.originalCost = this.squareFoot * 80 + (this.lotSize * .25);
-            System.out.println("Your house is currently worth " + this.originalCost);
+            value = this.squareFoot * 80;
         }
-
+        return value;
     }
+
 }

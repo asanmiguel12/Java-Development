@@ -34,17 +34,18 @@ public class Vehicle extends Asset{
     }
 
     @Override
-    public void getValue(double value) {
+    public double getValue() {
+        double value = 0;
         if (this.year <= 3 ) {
-            this.originalCost *= .97;
+            value *= .97;
         } else if (this.year <= 6) {
-            this.originalCost *= .94;
+            value *= .94;
         } else if (this.year <= 10) {
-            this.originalCost *= 92;
+            value *= 92;
         } else if (this.year > 10 && this.odometer > 100000 &&
                 this.makeModel != "Honda" ) {
-            this.originalCost = 1000 - (this.originalCost * .75) ;
+            value = 1000 - (this.originalCost * .75) ;
         }
-
+        return value;
     }
 }
