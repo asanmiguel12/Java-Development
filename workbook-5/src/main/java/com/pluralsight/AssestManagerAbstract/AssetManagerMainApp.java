@@ -1,4 +1,4 @@
-package com.pluralsight.AssestManager;
+package com.pluralsight.AssestManagerAbstract;
 
 import java.util.ArrayList;
 
