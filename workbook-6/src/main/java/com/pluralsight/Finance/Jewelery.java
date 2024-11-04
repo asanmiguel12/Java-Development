@@ -1,12 +1,10 @@
 package com.pluralsight.Finance;
 
-public class Jewelery extends Asset{
-    private String name;
+public class Jewelery extends FixedAsset implements Valuable{
     private double karat;
 
-    public Jewelery(String description, String dateAcquired, double originalCost, String name, double karat) {
-        super(description, dateAcquired, originalCost);
-        this.name = name;
+    public Jewelery(String name, double marketValue, double karat) {
+        super(marketValue, name);
         this.karat = karat;
     }
 
@@ -18,16 +16,8 @@ public class Jewelery extends Asset{
         this.karat = karat;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     @Override
-    public double getValue() {
-        return 0;
+    public void getValue() {
     }
 }
