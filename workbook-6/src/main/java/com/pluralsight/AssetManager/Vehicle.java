@@ -1,4 +1,4 @@
-package com.pluralsight.Finance;
+package com.pluralsight.AssetManager;
 
 public class Vehicle extends Asset {
     private int year;

@@ -3,12 +3,12 @@ package com.pluralsight.Finance;
 public class BankAccount implements Valuable {
     private int id;
     private String accountName;
-    private double amountAvailable;
+    private double balance;
 
-    public BankAccount(int id, String accountName, double amountAvailable) {
+    public BankAccount(int id, String accountName, double balance) {
         this.id = id;
         this.accountName = accountName;
-        this.amountAvailable = amountAvailable;
+        this.balance = balance;
     }
 
     public int getId() {
@@ -27,12 +27,12 @@ public class BankAccount implements Valuable {
         this.accountName = accountName;
     }
 
-    public double getAmountAvailable() {
-        return amountAvailable;
+    public double getBalance() {
+        return balance;
     }
 
-    public void setAmountAvailable(double amountAvailable) {
-        this.amountAvailable = amountAvailable;
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
     public void withdraw(double i) {
@@ -44,7 +44,8 @@ public class BankAccount implements Valuable {
     }
 
     @Override
-    public void getValue() {
+    public double getValue() {
 
+        return balance;
     }
 }

@@ -1,4 +1,4 @@
-package com.pluralsight.Finance;
+package com.pluralsight.AssetManager;
 
 public abstract class  Asset {
     String description;

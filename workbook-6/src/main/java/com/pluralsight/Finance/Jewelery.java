@@ -4,7 +4,7 @@ public class Jewelery extends FixedAsset implements Valuable{
     private double karat;
 
     public Jewelery(String name, double marketValue, double karat) {
-        super(marketValue, name);
+        super(name, );
         this.karat = karat;
     }
 
@@ -18,6 +18,7 @@ public class Jewelery extends FixedAsset implements Valuable{
 
 
     @Override
-    public void getValue() {
+    public double getValue() {
+        return karat * 20;
     }
 }

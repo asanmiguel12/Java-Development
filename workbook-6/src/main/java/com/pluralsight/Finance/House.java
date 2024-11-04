@@ -1,64 +1,45 @@
 package com.pluralsight.Finance;
 
-public class House extends Asset {
-    private String address;
-    private int condition;
-    private int squareFoot;
-    private int lotSize;
+public class House extends FixedAsset {
+    private int yearBuilt;
+    private int squareFeet;
+    private int bedrooms;
 
-    public House(String description, String dateAcquired, double originalCost, int squareFoot, int lotSize, int condition) {
-        super(description, dateAcquired, originalCost);
-        this.originalCost = originalCost;
-        this.squareFoot = squareFoot;
-        this.lotSize =  lotSize;
-        this.condition = condition;
+
+    public House(double marketValue, String name, int yearBuilt, int squareFeet, int bedrooms) {
+        super(name, );
+        this.yearBuilt = yearBuilt;
+        this.squareFeet = squareFeet;
+        this.bedrooms = bedrooms;
+
     }
 
-    public String getAddress() {
-        return address;
+    public int getYearBuilt() {
+        return yearBuilt;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setYearBuilt(int yearBuilt) {
+        this.yearBuilt = yearBuilt;
     }
 
-    public int getCondition() {
-        return condition;
+    public int getSquareFeet() {
+        return squareFeet;
     }
 
-    public void setCondition(int condition) {
-        this.condition = condition;
+    public void setSquareFeet(int squareFeet) {
+        this.squareFeet = squareFeet;
     }
 
-    public int getSquareFoot() {
-        return squareFoot;
+    public int getBedrooms() {
+        return bedrooms;
     }
 
-    public void setSquareFoot(int squareFoot) {
-        this.squareFoot = squareFoot;
-    }
-
-    public int getLotSize() {
-        return lotSize;
-    }
-
-    public void setLotSize(int lotSize) {
-        this.lotSize = lotSize;
+    public void setBedrooms(int bedrooms) {
+        this.bedrooms = bedrooms;
     }
 
     @Override
     public double getValue() {
-        double value = 0;
-        if (this.condition == 1) {
-            value = this.squareFoot * 180 + (this.lotSize * .25) + this.originalCost;
-        } else if (this.condition == 2) {
-            value = this.squareFoot * 130 + (this.lotSize * .25) + this.originalCost;
-        } else if (this.condition == 3) {
-            value = this.squareFoot * 90 + (this.lotSize * .25) + this.originalCost;
-        } else if (this.condition == 4) {
-            value = this.squareFoot * 80 + this.originalCost;
-        }
-        return value;
+        return marketValue;
     }
-
 }

@@ -3,7 +3,9 @@ package com.pluralsight.Finance;
 public class Gold extends FixedAsset{
     private double weight;
 
-    public Gold(double weight) {
+
+    public Gold(String name, double marketValue, double weight) {
+        super(marketValue, );
         this.weight = weight;
     }
 
@@ -16,6 +18,7 @@ public class Gold extends FixedAsset{
     }
 
     @Override
-    public void getValue() {
+    public double getValue() {
+        return weight * 200;
     }
 }
