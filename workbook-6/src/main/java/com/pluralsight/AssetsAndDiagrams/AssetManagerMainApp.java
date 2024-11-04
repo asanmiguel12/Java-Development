@@ -1,4 +1,4 @@
-package com.pluralsight.FixedAssets;
+package com.pluralsight.AssetsAndDiagrams;
 
 import java.util.ArrayList;
 

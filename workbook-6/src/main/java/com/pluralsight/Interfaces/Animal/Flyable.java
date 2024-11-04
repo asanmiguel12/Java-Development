@@ -1,4 +1,4 @@
-package com.pluralsight.Interfaces;
+package com.pluralsight.Interfaces.Animal;
 
 public interface Flyable {
     void fly();

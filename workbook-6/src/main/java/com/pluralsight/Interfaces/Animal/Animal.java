@@ -1,4 +1,4 @@
-package com.pluralsight.Interfaces;
+package com.pluralsight.Interfaces.Animal;
 
 public abstract class Animal {
     private String name;

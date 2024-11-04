@@ -1,4 +1,4 @@
-package com.pluralsight.FixedAssets;
+package com.pluralsight.AssetsAndDiagrams;
 
 public class Cash extends Asset {
     private double cash;
