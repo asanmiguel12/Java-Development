@@ -1,8 +1,5 @@
 package com.pluralsight.CarDealershipAbstract;
 
-import com.pluralsight.Dealership;
-import com.pluralsight.DealershipFileManager;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;

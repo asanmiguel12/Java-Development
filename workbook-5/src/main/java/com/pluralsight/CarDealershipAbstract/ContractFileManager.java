@@ -8,7 +8,7 @@ public class ContractFileManager {
     public ContractFileManager() {
 }
 
-    public displayAllContracts () {
+    public void displayAllContracts () throws FileNotFoundException {
         ArrayList<Contract> contracts = new ArrayList<>();
         FileReader fileReader = new FileReader("Contracts.csv");
         BufferedReader bufferedReader = new BufferedReader(fileReader);
@@ -17,7 +17,7 @@ public class ContractFileManager {
     }
 
 
-    public void saveContract () throws FileNotFoundException {
+    public void saveContract () throws IOException {
         FileWriter fileWriter = new FileWriter("Contracts.csv", true);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
