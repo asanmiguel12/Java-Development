@@ -5,4 +5,9 @@ public class Assistant extends PartTime implements Promotable{
     public void promote() {
 
     }
+
+    @Override
+    public void increaseSalary() {
+
+    }
 }

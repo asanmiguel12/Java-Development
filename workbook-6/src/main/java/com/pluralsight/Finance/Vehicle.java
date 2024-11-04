@@ -1,4 +1,4 @@
-package com.pluralsight.AssetsAndDiagrams;
+package com.pluralsight.Finance;
 
 public class Vehicle extends Asset {
     private int year;

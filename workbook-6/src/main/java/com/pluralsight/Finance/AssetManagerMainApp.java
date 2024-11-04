@@ -1,4 +1,4 @@
-package com.pluralsight.AssetsAndDiagrams;
+package com.pluralsight.Finance;
 
 import java.util.ArrayList;
 

@@ -5,6 +5,7 @@ public class EmployeeMain {
         Assistant me = new Assistant();
 
         me.promote();
+        me.increaseSalary();
 
     }
 }

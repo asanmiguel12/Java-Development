@@ -1,4 +1,4 @@
-package com.pluralsight.AssetsAndDiagrams;
+package com.pluralsight.Finance;
 
 public class House extends Asset {
     private String address;

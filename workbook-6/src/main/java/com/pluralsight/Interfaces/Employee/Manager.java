@@ -5,4 +5,14 @@ public class Manager extends FullTime implements Promotable{
     public void promote() {
 
     }
+
+    @Override
+    public void increaseSalary() {
+
+    }
+
+    @Override
+    public void getSalary() {
+
+    }
 }
