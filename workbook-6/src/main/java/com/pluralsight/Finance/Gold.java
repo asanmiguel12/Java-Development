@@ -5,7 +5,7 @@ public class Gold extends FixedAsset{
 
 
     public Gold(String name, double marketValue, double weight) {
-        super(marketValue, );
+        super(name, marketValue);
         this.weight = weight;
     }
 

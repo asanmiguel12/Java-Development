@@ -5,8 +5,8 @@ public abstract class FixedAsset implements Valuable {
     private double marketValue;
 
     public FixedAsset(String name, double marketValue) {
-        this.marketValue = marketValue;
         this.name = name;
+        this.marketValue = marketValue;
     }
 
     public String getName() {
