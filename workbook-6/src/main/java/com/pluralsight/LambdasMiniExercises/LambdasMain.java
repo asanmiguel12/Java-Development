@@ -8,13 +8,13 @@ public class LambdasMain {
 //
 //            }
 //        };
-        NumericOperator test1 = (a, b) -> System.out.println(a + b) ;
-        test1.operate(12, 12);
+        NumericOperator add = (a, b) -> System.out.println(a + b) ;
+        add.operate(12, 12);
 
-        NumericOperator test2 = (a, b) -> System.out.println(Math.max(a, b));
-        test2.operate(12, 24);
+        NumericOperator max = (a, b) -> System.out.println(Math.max(a, b));
+        max.operate(12, 24);
 
-        StringFormatter test3 = (a) -> System.out.println(a.toUpperCase());
-        test3.format("hi");
+        StringFormatter toUpperCase = (a) -> System.out.println(a.toUpperCase());
+        toUpperCase.format("hi");
     }
 }
