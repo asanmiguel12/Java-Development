@@ -7,7 +7,7 @@ public class IntermediateOperationsExample {
         List<String> groceries = List.of("Eggs", "Milk", "Detergent", "Toothpaste", "Paper");
 
         List<String> groceriesLessThan6Capitalized = groceries.stream()
-                .filter(g -> g.toUpperCase().length() >= 6)
+                .filter(g -> g.toUpperCase().length() >= 6) //.toUpperCase does not work in filter bc it is not a boolean
                 .map(g -> g.toUpperCase())
                 .toList();
         System.out.println(groceriesLessThan6Capitalized);
