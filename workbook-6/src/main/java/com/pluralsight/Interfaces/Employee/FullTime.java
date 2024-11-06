@@ -5,4 +5,9 @@ public class FullTime extends Employee{
     public void work() {
 
     }
+
+    @Override
+    public void getSalary() {
+
+    }
 }

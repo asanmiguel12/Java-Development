@@ -7,7 +7,7 @@ public class House extends FixedAsset {
 
 
     public House(double marketValue, String name, int yearBuilt, int squareFeet, int bedrooms) {
-        super(name, );
+        super(name, marketValue);
         this.yearBuilt = yearBuilt;
         this.squareFeet = squareFeet;
         this.bedrooms = bedrooms;
@@ -40,6 +40,6 @@ public class House extends FixedAsset {
 
     @Override
     public double getValue() {
-        return marketValue;
+        return getMarketValue();
     }
 }
