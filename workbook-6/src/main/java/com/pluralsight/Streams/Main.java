@@ -42,7 +42,7 @@ public class Main {
             //}
         }
 
-        famSearch.stream().forEach(System.out::println); // consolidated for each method
+        famSearch.stream().forEach(System.out::println); // consolidated for-each method
 
         double sum = 0;
         double maxAge = fam.get(0).getAge();
