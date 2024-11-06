@@ -41,11 +41,11 @@ public class Main {
             }
         }
 
-        famSearch.stream().forEach(System.out::println);
+        famSearch.stream().forEach(System.out::println); // consolidated for each method
 
-        int sum = 0;
-        int maxAge = fam.get(0).getAge();
-        int minAge = fam.get(0).getAge();
+        double sum = 0;
+        double maxAge = fam.get(0).getAge();
+        double minAge = fam.get(0).getAge();
 
         for (Person p : fam) {
             sum += p.getAge(); // add all ages
@@ -53,7 +53,7 @@ public class Main {
             minAge = Math.min(minAge, p.getAge()); // get the youngest age
         }
         //calculate average age
-        double avgAge = (double) (sum/fam.size());
+        double avgAge = sum / fam.size();
 
         System.out.println("Average age: " + avgAge);
         System.out.println("Oldest age: " + maxAge);
