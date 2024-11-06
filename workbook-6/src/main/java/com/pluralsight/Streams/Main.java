@@ -37,7 +37,7 @@ public class Main {
                 System.out.println(foudPerson.getFirstName() + foudPerson.getLastName());
             } else if (foudPerson.getAge() <= Integer.parseInt(choice)) {
                 famSearch.add(foudPerson);
-                System.out.println(foudPerson.getFirstName() + foudPerson.getLastName());
+                System.out.println(foudPerson);
             }
         }
 
@@ -48,7 +48,7 @@ public class Main {
         int minAge = fam.get(0).getAge();
 
         for (Person p : fam) {
-            sum += p.getAge();
+            sum += p.getAge(); // add all ages
             maxAge = Math.max(maxAge, p.getAge()); // get the oldest age
             minAge = Math.min(minAge, p.getAge()); // get the youngest age
         }
