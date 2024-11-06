@@ -31,14 +31,15 @@ public class Main {
         for (Person foudPerson : fam) {
             if (choice.equalsIgnoreCase(foudPerson.getFirstName())) {
                 famSearch.add(foudPerson);
-                System.out.println(foudPerson.getFirstName() + foudPerson.getLastName());
+                System.out.println(foudPerson);
             } else if (choice.equalsIgnoreCase(foudPerson.getLastName())) {
-                famSearch.add(foudPerson);
-                System.out.println(foudPerson.getFirstName() + foudPerson.getLastName());
-            } else if (foudPerson.getAge() <= Integer.parseInt(choice)) {
                 famSearch.add(foudPerson);
                 System.out.println(foudPerson);
             }
+            //} else if (foudPerson.getAge() <= Integer.parseInt(choice)) {
+                //famSearch.add(foudPerson);
+                //System.out.println(foudPerson);
+            //}
         }
 
         famSearch.stream().forEach(System.out::println); // consolidated for each method
