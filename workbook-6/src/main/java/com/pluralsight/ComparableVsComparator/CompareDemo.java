@@ -22,9 +22,9 @@ public class CompareDemo {
                 .sorted((course1, course2) -> (int) (course1.getMaxSize() - course2.getMaxSize()))
                 .forEach(c -> System.out.println("Courses Sorted By Max Size: " + c.getTitle()));
 
-       courseList.stream()
-               .sorted(Comparator.comparing(Course::getTitle).reversed()).forEach(c -> System.out.println(c.getTitle()));
-
+        courseList.stream()
+                .sorted(Comparator.comparing(Course::getTitle).reversed())
+                .forEach(c -> System.out.println(c.getTitle()));
 
     }
 }
