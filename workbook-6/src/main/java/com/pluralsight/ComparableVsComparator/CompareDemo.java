@@ -16,15 +16,17 @@ public class CompareDemo {
 
         courseList.stream()
                 .sorted((course1, course2) -> (int) (course1.getStudyPoints() - course2.getStudyPoints()))
-                .forEach(c -> System.out.println("Courses Sorted By Study Points: " + c.getTitle()));
+                .forEach(c -> System.out.println("Courses Sorted By Study Points: " + c.getTitle() +
+                        " Study Points: " + c.getStudyPoints()));
 
         courseList.stream()
                 .sorted((course1, course2) -> (int) (course1.getMaxSize() - course2.getMaxSize()))
-                .forEach(c -> System.out.println("Courses Sorted By Max Size: " + c.getTitle()));
+                .forEach(c -> System.out.println("Courses Sorted By Max Size: " + c.getTitle() +
+                        " Max Size: " + c.getMaxSize()));
 
         courseList.stream()
                 .sorted(Comparator.comparing(Course::getTitle).reversed())
-                .forEach(c -> System.out.println(c.getTitle()));
+                .forEach(c -> System.out.println("Sorted By Title: " + c.getTitle()));
 
     }
 }
