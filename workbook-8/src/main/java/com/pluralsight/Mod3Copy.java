@@ -13,9 +13,12 @@ public class Mod3Copy {
         // execute query
         String query = "SELECT productid, productname FROM products WHERE productid = ?";
         PreparedStatement statement = connection.prepareStatement(query);
-        System.out.println("Please Enter The Product Id To Search");
 
+        // get user input
+        System.out.println("Please Enter The Product Id To Search");
         String id = scanner.nextLine();
+
+        // set prepared statement to wanted param index with user input
         statement.setString(1, id);
 
 
