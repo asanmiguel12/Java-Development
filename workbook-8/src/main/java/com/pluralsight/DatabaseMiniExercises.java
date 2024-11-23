@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class DatabaseMiniExercises {
     public static void main(String[] args) throws SQLException {
-        displayAllVehicles();
-        searchVehicles();
+        searchProducts();
     }
 
     public static void displayAllVehicles() throws SQLException {
@@ -35,6 +34,7 @@ public class DatabaseMiniExercises {
         PreparedStatement statementMake = connection.prepareStatement(queryMake);
         String queryModel = "SELECT make, model, vin  FROM Vehicles WHERE Model = ?";
         PreparedStatement statementModel = connection.prepareStatement(queryModel);
+
         System.out.println("Please Choose How You Would Like To Search For A Vehicle" + "\n" +
                 "1) Make" + "\n" +
                 "2) Model");
@@ -45,17 +45,75 @@ public class DatabaseMiniExercises {
       if (choice == 1) {
           System.out.println("Please Enter Make Of Vehicle To Search");
           String userMake = scanner.nextLine();
+
           statementMake.setString(1, userMake);
 
-          ResultSet rs = statementMake.executeQuery();
-          while(rs.next()) {
-              System.out.println("Make " + rs.getString("Model") + "\n" +
-                      "Model: " + rs.getString("Model") + "\n" +
-                      "VIN: " + rs.getString("VIN"));
+          ResultSet rsMake = statementMake.executeQuery();
+          while (rsMake.next()) {
+              System.out.println("Make " + rsMake.getString("Model") + "\n" +
+                      "Model: " + rsMake.getString("Model") + "\n" +
+                      "VIN: " + rsMake.getString("VIN"));
+          }
+      }
+          if (choice == 2) {
+              System.out.println("Please Enter Model Of Vehicle To Search");
+              String userModel = scanner.nextLine();
+
+              statementMake.setString(1, userModel);
+
+              ResultSet rsModel = statementModel.executeQuery();
+              while(rsModel.next()) {
+                  System.out.println("Make " + rsModel.getString("Model") + "\n" +
+                          "Model: " + rsModel.getString("Model") + "\n" +
+                          "VIN: " + rsModel.getString("VIN"));
+
           }
           connection.close();
       }
+    }
 
+    public static void searchProducts () throws SQLException {
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", "root", "");
+        String queryProductName = "SELECT ProductName, ProductId, UnitPrice FROM Products WHERE ProductName = ?";
+        PreparedStatement statementProductName = connection.prepareStatement(queryProductName);
+        String queryProductId = "SELECT ProductName, ProductId, UnitPrice FROM Products WHERE ProductId = ?";
+        PreparedStatement statementProductId = connection.prepareStatement(queryProductId);
+
+        System.out.println("Please Choose How You Would Like To Search For A Product" + "\n" +
+                "1) Name" + "\n" +
+                "2) Id");
+
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+
+        if (choice == 1) {
+            System.out.println("Please Enter The Name Of The Product To Search");
+            String userMake = scanner.nextLine();
+
+            statementProductName.setString(1, userMake);
+
+            ResultSet rsMake = statementProductName.executeQuery();
+            while (rsMake.next()) {
+                System.out.println("ProductId: " + rsMake.getString("ProductId") + "\n" +
+                        "ProductName: " + rsMake.getString("ProductName") + "\n" +
+                        "UnitPrice: " + rsMake.getString("UnitPrice"));
+            }
+        }
+        if (choice == 2) {
+            System.out.println("Please Enter Id Of The Product To Search");
+            String userModel = scanner.nextLine();
+
+            statementProductId.setString(1, userModel);
+
+            ResultSet rsModel = statementProductId.executeQuery();
+            while (rsModel.next()) {
+                System.out.println("ProductId: " + rsModel.getString("ProductId") + "\n" +
+                        "ProductName: " + rsModel.getString("ProductName") + "\n" +
+                        "UnitPrice: " + rsModel.getString("UnitPrice"));
+
+            }
+            connection.close();
+        }
     }
 
     public static void tryCatchEstablishConnection (String [] args) {
