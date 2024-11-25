@@ -5,15 +5,18 @@ import java.util.Scanner;
 
 public class DatabaseMiniExercises {
     public static void main(String[] args) throws SQLException {
+        Connection connectionCd = DriverManager.getConnection("jdbc:mysql://localhost:3306/CarDealershipDatabase", args[0], args[1]);
+        Connection connectionNw = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
         //searchProducts();
         //displayAllVehicles();
         //searchVehicles();
-        searchSuppliers();
+        searchSuppliers(connectionNw);
+        connectionNw.close();
+        connectionCd.close();
     }
 
-    public static void displayAllVehicles() throws SQLException {
+    public static void displayAllVehicles(Connection connection) throws SQLException {
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/CarDealershipDatabase", "root", "");
         Statement statement = connection.createStatement();
 
         // execute query
@@ -71,12 +74,10 @@ public class DatabaseMiniExercises {
                           "VIN: " + rsModel.getString("VIN"));
 
           }
-          connection.close();
       }
     }
 
-    public static void searchProducts () throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", "root", "");
+    public static void searchProducts (Connection connection) throws SQLException {
         String queryProductName = "SELECT ProductName, ProductId, UnitPrice FROM Products WHERE ProductName = ?";
         PreparedStatement statementProductName = connection.prepareStatement(queryProductName);
         String queryProductId = "SELECT ProductName, ProductId, UnitPrice FROM Products WHERE ProductId = ?";
@@ -121,10 +122,7 @@ public class DatabaseMiniExercises {
         }
     }
 
-    public static void searchSuppliers () throws SQLException {
-
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", "root", "");
-
+    public static void searchSuppliers (Connection connection) throws SQLException {
         // execute query
         String query = "SELECT supplierid, companyname FROM suppliers WHERE companyname = ?";
         PreparedStatement statement = connection.prepareStatement(query);
@@ -169,15 +167,4 @@ public class DatabaseMiniExercises {
         connection.close();
     }
 
-    public static void tryCatchEstablishConnection (String [] args) {
-        try(Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
-        )
-        {
-
-
-      } catch(SQLException e) {
-        System.out.println(e.getMessage());
-    }
-
-    }
 }
