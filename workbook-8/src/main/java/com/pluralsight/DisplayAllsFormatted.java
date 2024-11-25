@@ -62,7 +62,6 @@ public class DisplayAllsFormatted {
              Statement statement = connection.createStatement();
         ) {
 
-            // execute query
             String query = "SELECT * FROM categories ORDER BY categoryid";
            try ( ResultSet rs = statement.executeQuery(query);
            ) {
@@ -98,7 +97,6 @@ public class DisplayAllsFormatted {
                                 "Unit Price: " + rs2.getString("UnitPrice") + "\n" +
                                 "Units In Stock: " + rs2.getInt("UnitsInStock") + "\n" +
                                 "------------------------");
-
                     }
                 }
                 if (viewChoice.equalsIgnoreCase("N")) {

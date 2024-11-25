@@ -12,11 +12,6 @@ public class DisplayHomeScreen {
 
     public static void displayHomeScreen(Connection connection) throws SQLException {
 
-        String queryProducts = "SELECT ProductName, ProductId, UnitPrice FROM Products WHERE ProductName = ?";
-        PreparedStatement statementProductName = connection.prepareStatement(queryProducts);
-        String queryCustomers = "SELECT CompanyName, CustomerId, Phone FROM Products WHERE ProductId = ?";
-        PreparedStatement statementProductId = connection.prepareStatement(queryCustomers);
-
         System.out.println("Please Choose How You Would Like To Search For A Product" + "\n" +
                 "1) Display All Products" + "\n" +
                 "2) Dislplay All Customers" + "\n" +
