@@ -14,7 +14,7 @@ public class DisplayHomeScreen {
 
         System.out.println("Please Choose How You Would Like To Search For A Product" + "\n" +
                 "1) Display All Products" + "\n" +
-                "2) Dislplay All Customers" + "\n" +
+                "2) Display All Customers" + "\n" +
                 "3) Display All Categories" + "\n" +
                 "0) Exit");
 
@@ -31,8 +31,8 @@ public class DisplayHomeScreen {
             case 3:
                 displayAllCategoriesFormatted();
                 break;
-
-
+            case 0:
+                System.out.println("BYE");
         }
     }
 }
