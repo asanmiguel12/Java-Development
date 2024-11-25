@@ -5,7 +5,10 @@ import java.util.Scanner;
 
 public class DatabaseMiniExercises {
     public static void main(String[] args) throws SQLException {
-        searchProducts();
+        //searchProducts();
+        //displayAllVehicles();
+        //searchVehicles();
+        searchSuppliers();
     }
 
     public static void displayAllVehicles() throws SQLException {
@@ -114,6 +117,46 @@ public class DatabaseMiniExercises {
             }
             connection.close();
         }
+    }
+
+    public static void searchSuppliers () throws SQLException {
+
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", "root", "");
+
+        // execute query
+        String query = "SELECT supplierid, companyname FROM suppliers WHERE companyname = ?";
+        PreparedStatement statement = connection.prepareStatement(query);
+
+        // get user input
+        System.out.println("Please Enter The Supplier's Company Name To Search");
+        String name = scanner.nextLine();
+
+        // set prepared statement to wanted param index with user input
+        statement.setString(1, name);
+
+        // process results
+        ResultSet rs = statement.executeQuery();
+        while (rs.next()) {
+            System.out.printf("""
+                    Supplier Id: %d \nCompany Name: %s
+                    """, rs.getInt("supplierid"), rs.getString("companyname"));
+
+            // In Java, %d is a format specifier used with the printf() and format()
+            // methods to represent an integer (decimal) value.
+        }
+        String query2 = "SELECT suppliers.supplierid, companyname, productname FROM suppliers JOIN products ON products.supplierid = suppliers.supplierid WHERE companyname = ?";
+        PreparedStatement statement2 = connection.prepareStatement(query2);
+
+        statement2.setString(1, name);
+        ResultSet rs2 = statement2.executeQuery();
+        while (rs2.next()) {
+            System.out.println("Product Name: " + rs2.getString("productname") + "\n" +
+                    "Supplier Id: " + rs2.getInt("SupplierId") + "\n" +
+                    "Company Name: " + rs2.getString("CompanyName"));
+            break;
+
+        }
+        connection.close();
     }
 
     public static void tryCatchEstablishConnection (String [] args) {

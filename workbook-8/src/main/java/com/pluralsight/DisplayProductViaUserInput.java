@@ -27,8 +27,8 @@ public class DisplayProductViaUserInput {
                         Product Id: %d --- Product Name: %s
                         """, rs.getInt(1), rs.getString(2));
 
-                // In Java, %d is a format specifier used with the printf() and format()
-                // methods to represent an integer (decimal) value.
+                // In Java, %d is a format specifier used with the printf() and format() methods to represent an integer (decimal) value.
+                // d - integer s - string
         }
         connection.close();
     }
