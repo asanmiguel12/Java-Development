@@ -10,7 +10,7 @@ import static com.pluralsight.DisplayAllsFormatted.*;
 public class DisplayHomeScreen {
     static Scanner scanner = new Scanner(System.in);
 
-    public static void displayHomeScreen(Connection connection) throws SQLException {
+    public static void displayHomeScreen() {
 
         System.out.println("Please Choose How You Would Like To Search For A Product" + "\n" +
                 "1) Display All Products" + "\n" +

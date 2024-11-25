@@ -83,8 +83,7 @@ public class DisplayAllsFormatted {
                 String query2 = "SELECT northwind.categories.categoryid, products.productid, productname, unitsinstock, unitprice " +
                         "FROM northwind.categories " +
                         "JOIN northwind.products " +
-                        "ON products.categoryid = categories.categoryid " +
-                        "WHERE categories.categoryid = ?";
+                        "ON products.categoryid = categories.categoryid WHERE categories.categoryid = ?";
                 PreparedStatement statement2 = connection.prepareStatement(query2);
 
                 statement2.setString(1, categoryIdChoice);
