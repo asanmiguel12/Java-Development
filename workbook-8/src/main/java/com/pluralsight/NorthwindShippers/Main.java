@@ -1,9 +1,7 @@
 package com.pluralsight.NorthwindShippers;
 
-import com.pluralsight.Sakila.ActorFilmDataManager;
 import org.apache.commons.dbcp2.BasicDataSource;
 
-import static com.pluralsight.NorthwindShippers.ShippersDAO.insertIntoDirectShippers;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +11,7 @@ public class Main {
         bds.setPassword(args[1]);
 
 
-        insertIntoDirectShippers(bds);
+        ShippersDataManager shippersDataManager = new ShippersDataManager(bds);
+        ShippersDAO.deleteShipperRecord(bds);
     }
 }
