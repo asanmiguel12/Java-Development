@@ -1,4 +1,4 @@
-package com.pluralsight.Northwind;
+package com.pluralsight.NorthwindProducts;
 
 import java.sql.*;
 import java.util.Scanner;

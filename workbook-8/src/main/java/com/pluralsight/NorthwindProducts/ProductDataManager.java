@@ -1,4 +1,4 @@
-package com.pluralsight.Northwind;
+package com.pluralsight.NorthwindProducts;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

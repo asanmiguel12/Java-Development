@@ -1,4 +1,4 @@
-package com.pluralsight.Northwind;
+package com.pluralsight.NorthwindProducts;
 
 public class Product {
     private int id;
