@@ -1,6 +1,5 @@
 package com.pluralsight.Sakila;
 
-import com.pluralsight.Northwind.ProductDataManager;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 public class Main {
@@ -10,8 +9,8 @@ public class Main {
         bds.setUsername(args[0]);
         bds.setPassword(args[1]);
 
-        ActorDataManager actorDataManager = new ActorDataManager(bds);
+        ActorFilmDataManager actorFilmDataManager = new ActorFilmDataManager(bds);
 
-        actorDataManager.getAllFilmsByActorId();
+        actorFilmDataManager.getAllFilmsByActorId();
     }
 }

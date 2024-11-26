@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ActorDataManager {
+public class ActorFilmDataManager {
     private DataSource dataSource;
     private static Scanner scanner = new Scanner(System.in);
 
-    public ActorDataManager(DataSource dataSource) {
+    public ActorFilmDataManager(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
