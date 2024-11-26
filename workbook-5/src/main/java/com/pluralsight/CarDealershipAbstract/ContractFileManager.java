@@ -21,6 +21,7 @@ public class ContractFileManager {
         FileWriter fileWriter = new FileWriter("Contracts.csv", true);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
+        Dealership dealership = new Dealership();
         bufferedWriter.write(dealership.getName() +"|" + dealership.getAddress() + "|" + dealership.getPhone());
         bufferedWriter.newLine();
         for (Vehicle vehicle : dealership.getAllVehicles()) {
