@@ -25,7 +25,8 @@ public class ShippersDAO {
             // Create the connection and prepared statement
         try (Connection connection = dataSource.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(
-                             "INSERT INTO shippers (companyname, phone) VALUES (?, ?);",
+                             "INSERT INTO shippers (companyname, phone) " +
+                                     "VALUES (?, ?);",
                      Statement.RETURN_GENERATED_KEYS);
         ) {
             // set the parameter
@@ -50,6 +51,7 @@ public class ShippersDAO {
             e.printStackTrace();
         }
     }
+
     public static void updateShipperRecord(DataSource dataSource) {
 
         //prompt user for what they would like to update

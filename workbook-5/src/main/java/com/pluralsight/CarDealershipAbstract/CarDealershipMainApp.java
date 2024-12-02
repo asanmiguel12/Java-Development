@@ -15,7 +15,7 @@ public class CarDealershipMainApp {
 //        dealershipFileManager.getInventory();
 
 
-//        DealershipFileManager dealershipFileManager = new DealershipFileManager();
+       DealershipFileManager dealershipFileManager = new DealershipFileManager();
 //        Dealership dealership = new Dealership();
 //        dealership.getAllVehicles();
 

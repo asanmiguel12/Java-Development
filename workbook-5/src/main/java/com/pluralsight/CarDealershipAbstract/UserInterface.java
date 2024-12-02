@@ -69,7 +69,6 @@ Scanner scanner = new Scanner(System.in);
                     break;
 
             }
-            String buffer = scanner.nextLine();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

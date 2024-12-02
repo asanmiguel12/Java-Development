@@ -2,7 +2,7 @@ package LoopingExercises;
 
 public class RollTheDice {
    public static void main(String[] args) {
-      Dice dice = new Dice();
+      LoopingExercises.Dice dice = new LoopingExercises.Dice();
       int twoCount = 0;
       int fourCount = 0;
       int sixCount = 0;
